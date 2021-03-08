@@ -1,0 +1,10 @@
+﻿New-ADOrganizationalUnit  -Name "DepInfrastructure" -Path "OU=DUAL,DC=IR3,DC=local"
+New-ADOrganizationalUnit  -Name "HPDN1" -Path "OU=DepInfrastructure,OU=DUAL,DC=IR3,DC=local"
+New-ADOrganizationalUnit  -Name "HPDN2" -Path "OU=DepInfrastructure,OU=DUAL,DC=IR3,DC=local"
+New-ADOrganizationalUnit  -Name "DEV" -Path "OU=DepInfrastructure,OU=DUAL,DC=IR3,DC=local"
+New-ADOrganizationalUnit  -Name "Systeme" -Path "OU=DepInfrastructure,OU=DUAL,DC=IR3,DC=local"
+
+New-ADOrganizationalUnit  -Name "DepCommercial" -Path "OU=DUAL,DC=IR3,DC=local"
+New-ADOrganizationalUnit  -Name "Marketing" -Path "OU=DepCommercial,OU=DUAL,DC=IR3,DC=local"
+New-ADOrganizationalUnit  -Name "Commercial" -Path "OU=DepCommercial,OU=DUAL,DC=IR3,DC=local"
+New-ADOrganizationalUnit  -Name "Achat" -Path "OU=DepCommercial,OU=DUAL,DC=IR3,DC=local"

@@ -1,0 +1,54 @@
+﻿lastname;firstname;EmployeeID;password;OU;Department;Description;Title
+Roulier;Joel;Jrouliere;Esaip12345*;OU=Direction,OU=DUAL,DC=IR3,DC=local;DUAL;DUAL;Directeur General
+Letang;Corinne;Cletang;Esaip12345*;OU=Assistantes,OU=DUAL,DC=IR3,DC=local;Dual;Dual;Assistante de direction
+Brian;Matthieu;Mbrian;Esaip12345*;OU=Direction,OU=DUAL,DC=IR3,DC=local;Production;Production;Directeur Production
+Delarue;Vincent;Vdelarue;Esaip12345*;OU=Direction,OU=DUAL,DC=IR3,DC=local;Administratif;Administratif;Directeur Administratif
+Roger;Bruno;Broger;Esaip12345*;OU=Direction,OU=DUAL,DC=IR3,DC=local;Commercial;Commercial;Directeur Commercial
+Chotard;Pascal;Pchotard;Esaip12345*;OU=Direction,OU=DUAL,DC=IR3,DC=local;Infrastruture;Infrastructure;Directeur Infrastructure
+Ronsar ;Angelique;Aronsar;Esaip12345*;OU=Assistantes,OU=DUAL,DC=IR3,DC=local;Production;Production;Assistante de production
+Tyler;John;Jtyler;Esaip12345*;OU=Quality,OU=DepProduction,OU=DUAL,DC=IR3,DC=local;Production;Quality;Responsable quality
+Rivo;Pascal;Privo;Esaip12345*;OU=Quality,OU=DepProduction,OU=DUAL,DC=IR3,DC=local;Production;Quality;Controleur Quality
+Dubois;Estelle;Edubois;Esaip12345*;OU=Quality,OU=DepProduction,OU=DUAL,DC=IR3,DC=local;Production;Quality;Controleur Quality
+Sovry;Mireille;Msovry;Esaip12345*;OU=Quality,OU=DepProduction,OU=DUAL,DC=IR3,DC=local;Production;Quality;Controleur Quality
+Duval;Anthony;Aduval;Esaip12345*;OU=Prod,OU=DepProduction,OU=DUAL,DC=IR3,DC=local;Production;Production;Responble Production
+Brey;Antoine;Abrey;Esaip12345*;OU=Prod,OU=DepProduction,OU=DUAL,DC=IR3,DC=local;Production;Production;Chef de ligne
+Grey;Valentin;Vgrey;Esaip12345*;OU=Prod,OU=DepProduction,OU=DUAL,DC=IR3,DC=local;Production;Production;Chef de ligne
+Dalo;Sandra;Sdalo;Esaip12345*;OU=Prod,OU=DepProduction,OU=DUAL,DC=IR3,DC=local;Production;Production;Chef d'expedition
+Duvil;Myriam;Mduvil;Esaip12345*;OU=Prod,OU=DepProduction,OU=DUAL,DC=IR3,DC=local;Production;Production;Chef d'expedition
+Prost ;Marylene;Mprost;Esaip12345*;OU=Assistantes,OU=DUAL,DC=IR3,DC=local;Commercial;Commercial;Assistante Commercial
+Drez;Peter;Pdrez;Esaip12345*;OU=Achat,OU=DepCommercial,OU=DUAL,DC=IR3,DC=local;Commercial;Achat;Responsable Achat
+Youi;Fabienne;Fyoui;Esaip12345*;OU=Achat,OU=DepCommercial,OU=DUAL,DC=IR3,DC=local;Commercial;Achat;Acheteur
+Folio;Philippe;Pfolio;Esaip12345*;OU=Achat,OU=DepCommercial,OU=DUAL,DC=IR3,DC=local;Commercial;Achat;Acheteur
+Triare;Hakin;Htriare;Esaip12345*;OU=Commercial,OU=DepCommercial,OU=DUAL,DC=IR3,DC=local;Commercial;Commercial;Responsable Commercial
+Sancheve;JY;Jsancheve;Esaip12345*;OU=Commercial,OU=DepCommercial,OU=DUAL,DC=IR3,DC=local;Commercial;Commercial;Commercial Sedentaire
+Vogue;Nathalie;Nvogue;Esaip12345*;OU=Commercial,OU=DepCommercial,OU=DUAL,DC=IR3,DC=local;Commercial;Commercial;Commercial Sedentaire
+Orange;Pascal;Porange;Esaip12345*;OU=Commercial,OU=DepCommercial,OU=DUAL,DC=IR3,DC=local;Commercial;Commercial;Commercial  
+Plume;Pierrot;Pplume;Esaip12345*;OU=Commercial,OU=DepCommercial,OU=DUAL,DC=IR3,DC=local;Commercial;Commercial;Commercial  
+Biento ;Sophie;Sbiento;Esaip12345*;OU=Marketing,OU=DepCommercial,OU=DUAL,DC=IR3,DC=local;Commercial;Marketing;Responsable Marketing
+Okey;Racelle;Rokay;Esaip12345*;OU=Marketing,OU=DepCommercial,OU=DUAL,DC=IR3,DC=local;Commercial;Marketing;Designer
+Premier;Jacques;Jpremier;Esaip12345*;OU=Marketing,OU=DepCommercial,OU=DUAL,DC=IR3,DC=local;Commercial;Marketing;Designer
+Ander;Pamela;Pander;Esaip12345*;OU=Assistantes,OU=DUAL,DC=IR3,DC=local;Administratif;Administratif;Assistante Administratif
+Pourry ;Jean-Yves;Jpourry;Esaip12345*;OU=RH,OU=DepAdministratif,OU=DUAL,DC=IR3,DC=local;Administratif;RH;Responsable RH
+Pion;Marie-Laure;Mpion;Esaip12345*;OU=RH,OU=DepAdministratif,OU=DUAL,DC=IR3,DC=local;Administratif;RH;Responsable du personnel
+Duvant;Cyrielle;Cduvant;Esaip12345*;OU=RH,OU=DepAdministratif,OU=DUAL,DC=IR3,DC=local;Administratif;RH;Responsable du personnel
+Matime;Jenny;Jmatime;Esaip12345*;OU=RH,OU=DepAdministratif,OU=DUAL,DC=IR3,DC=local;Administratif;RH;Responsable paie
+Tahar ;Mohamed;Mtahar;Esaip12345*;OU=RH,OU=DepAdministratif,OU=DUAL,DC=IR3,DC=local;Administratif;RH;Responsable paie
+Mamant;Christelle;Cmamant;Esaip12345*;OU=Compta,OU=DepAdministratif,OU=DUAL,DC=IR3,DC=local;Administratif;Compta;Responsable Compta
+Comte;Sandrine;Scomte;Esaip12345*;OU=Compta,OU=DepAdministratif,OU=DUAL,DC=IR3,DC=local;Administratif;Compta;Expert compable
+Tablo;Guy;Gtableau;Esaip12345*;OU=Compta,OU=DepAdministratif,OU=DUAL,DC=IR3,DC=local;Administratif;Compta;Expert compable
+Arik;Sana;Sarik;Esaip12345*;OU=Compta,OU=DepAdministratif,OU=DUAL,DC=IR3,DC=local;Administratif;Compta;Comptable
+Mateux;Pierre;Pmateux;Esaip12345*;OU=Compta,OU=DepAdministratif,OU=DUAL,DC=IR3,DC=local;Administratif;Compta;Comptable
+Monnet;Veronique;Vmonnet;Esaip12345*;OU=Finance,OU=DepAdministratif,OU=DUAL,DC=IR3,DC=local;Administratif;Finance;Responsable Finance
+Vole;Katy;Kvole;Esaip12345*;OU=Finance,OU=DepAdministratif,OU=DUAL,DC=IR3,DC=local;Administratif;Finance;Financier
+Trichet;Virginie;Vtrichet;Esaip12345*;OU=Finance,OU=DepAdministratif,OU=DUAL,DC=IR3,DC=local;Administratif;Finance;Financier
+Criard;Ludivine;Lcriard;Esaip12345*;OU=Assistantes,OU=DUAL,DC=IR3,DC=local;Infrastruture;Infrastructure;Assistante Infrastructure
+Merlet;Philippe;Pmerlet;Esaip12345*;OU=DepInfrastructure,OU=DUAL,DC=IR3,DC=local;Infrastruture;SR & DEV;Responsable ingenieur
+Poulain;Eric;Epoulain;Esaip12345*;OU=Systeme,OU=DepInfrastructure,OU=DUAL,DC=IR3,DC=local;Infrastruture;SR & DEV;Admin SR
+Payel ;Mickael;Mpayel;Esaip12345*;OU=Systeme,OU=DepInfrastructure,OU=DUAL,DC=IR3,DC=local;Infrastruture;SR & DEV;Admin SR
+Karam;Francois;Fkaram;Esaip12345*;OU=DEV,OU=DepInfrastructure,OU=DUAL,DC=IR3,DC=local;Infrastruture;DEV;Developpeur
+Groove;Christopher;Cgroove;Esaip12345*;OU=DEV,OU=DepInfrastructure,OU=DUAL,DC=IR3,DC=local;Infrastruture;DEV;Developpeur
+Marchais ;Anthony;Amarchais;Esaip12345*;OU=DepInfrastructure,OU=DUAL,DC=IR3,DC=local;Infrastruture;HELPDESK;Responsable Helpdesk
+Dubois;Moise;Mdubois;Esaip12345*;OU=HPDN1,OU=DepInfrastructure,OU=DUAL,DC=IR3,DC=local;Infrastruture;HELPDESK;Tech N1
+Sauvaget;Bernard;Bsauvaget;Esaip12345*;OU=HPDN1,OU=DepInfrastructure,OU=DUAL,DC=IR3,DC=local;Infrastruture;HELPDESK;Tech N1
+Collard;Sebastien;Scollard;Esaip12345*;OU=HPDN2,OU=DepInfrastructure,OU=DUAL,DC=IR3,DC=local;Infrastruture;HELPDESK;Tech N2
+Djerbi;Sarah;Sdjerbi;Esaip12345*;OU=HPDN2,OU=DepInfrastructure,OU=DUAL,DC=IR3,DC=local;Infrastruture;HELPDESK;Tech N2

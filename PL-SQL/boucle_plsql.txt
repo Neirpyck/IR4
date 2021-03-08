@@ -1,0 +1,33 @@
+DECLARE
+  
+	c_a resultats.chiffre%type;
+  
+	obj resultats.objectif%type;
+  
+	prime NUMBER:=0;
+  
+	emp_id NUMBER:=&numero;
+
+	
+	BEGIN
+  select chiffre, objectif,empno into c_a, obj,emp_id 
+from resultats where empno=emp_id;
+  IF c_A > obj
+	THEN
+    prime := (10/100)*c_a;
+  
+	ELSIF c_a = obj 
+	THEN
+    prime := (5/100)*c_a;
+  
+	END IF;
+  
+    UPDATE emp
+  SET sal= sal + prime, comm=prime
+  
+	WHERE empno=emp_id;
+  
+  
+	END;
+	/
+  commit;
