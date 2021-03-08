@@ -1,0 +1,20 @@
+* créer un utilisateur spécifique pour l export*/
+CREATE user dba_import identified by oracle2018;
+/* Donner des Privilèges à l'utilisateur*/
+
+
+GRANT IMP_FULL_DATABASE TO dba_import;
+
+alter user dba_import quota 100M on users;
+
+
+/* création du répertoire et privilèges sur le répertoire : déjà fait à l'export*/
+
+
+/*create directory dp_exp2 as '/home/oracle/dir_exp2/';*/
+
+grant read,write on directory dp_imp to dba_import;
+
+/7.1* Export 100% de la table employe de SCOTT */
+
+impdp dba_import/oracle2018@orcl DIRECTORY=dp_exp2 TABLES=scott.employe DUMPFILE=scott_tables.dmp LOGFILE=imp_scott_tables_full.log;

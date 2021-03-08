@@ -1,0 +1,17 @@
+Lancer un export en s’appuyant sur un fichier de paramètres
+> expdp scott parfile=emp_query.par
+Fichier de paramètres : emp_query.par
+QUERY=emp:"WHERE depno > 10 AND sal > 5000"
+NOLOGFILE=y 
+DIRECTORY=dpump_dir1 
+DUMPFILE=exp1.dmp
+
+Exporter des tablespaces
+> expdp scott DIRECTORY=dpump_dir1 DUMPFILE=tbs.dmp 
+TABLESPACES=tbs_4, tbs_5, tbs_6
+
+DATA PUMP Import 
+Réaliser un export Full
+Supprimer une table
+Importer une table à partir du dump export_full
+Importer à partir d’une requête à partir du dump export_full

@@ -1,0 +1,12 @@
+LOAD DATA
+INFILE	‘/ora01/oracle/emp.csv’
+BADFILE	‘/ora01/oracle/emp.bad’
+DISCARDFILE	‘/ora01/oracle/emp.dsc’
+INSERT INTO TABLE emp 
+FIELDS TERMINATED BY “;” OPTIONALLY ENCLOSED BY ‘”’ TRAILING NULLCOLS
+(empno,name,sal,jdate date ‘mm/dd/yyyy’)
+
+Atelier 19 : 
+Insertion de données dans la table EMP de SCOTT
+Créer 1 fichier .csv avec 3 lignes d’insertion
+Insérer les données dans la table

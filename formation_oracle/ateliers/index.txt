@@ -1,0 +1,11 @@
+Vérifier les index positionnés sur les tables de Scott
+2 – Réaliser une requête : création d’un Index sur 2 colonnes sur une table de SCOTT
+3 – Réaliser une requête : création d’un Index sur une clé primaire d’une table de SCOTT
+4 - Une simple  Analyse des index avec ANALYSE INDEX …VALIDATE STRUCTURE
+Découvrir l’outil
+Visualiser les résultats : height, lf_blks, bl_blks, blocks,pct_used,lf_rows
+5 - Calculer avec le package DBMS_SPACE
+Se servir aussi du package DBMS_STATS
+6 - Libérer de l’espace au dessus de HWM
+7 – Augmentation de la performance des index avec l’ordre suivant
+Ordre SQL ALTER INDEX….DEALLOCATE UNUSED

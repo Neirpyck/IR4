@@ -1,0 +1,19 @@
+/* créer un utilisateur spécifique pour l export*/
+CREATE user dba_export2 identified by oracle2018;
+/* Donner des Privilèges à l'utilisateur*/
+
+GRANT EXP_FULL_DATABASE TO dba_export2;
+
+alter user dba_export2 quota 100M on users;
+
+
+/* création du répertoire et privilèges sur le répertoire : */
+
+
+create directory dp_exp2 as '/home/oracle/dir_exp2/';
+
+grant read,write on directory dp_exp2 to dba_export2;
+
+/7.1* Export 100% SCOTT */
+
+$expdp dba_export2/oracle2018@orcl DIRECTORY=dp_exp2 SCHEMAS=SCOTT DUMPFILE=scott_tables.dmp LOGFILE=scott_tables_full.log;
