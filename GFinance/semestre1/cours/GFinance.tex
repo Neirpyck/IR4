@@ -1,0 +1,244 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%BASE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{article}%defini caracteristique du document
+\usepackage[latin1]{inputenc}
+\usepackage{fontenc}
+\usepackage[french]{babel} %pour coder en francais%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%MISE EN PAGE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{lipsum} %pack pour faux text%
+\usepackage{ulem}%pour pouvoir souligner
+\usepackage{layout}%ajoute les page de description de mise en forme: marges etc
+\usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}%permet de definir les caracteristique des marges
+\usepackage{enumerate}%permet de faire certaine liste comme les articles de lois
+\usepackage{paralist}%permet de faire une liste numérotée dans un text
+\usepackage{graphicx}%permet d'intégrer des figure et graphics
+\usepackage{wrapfig}%permet de mettre une photo dans un text
+\usepackage{multicol}%permet d'écrire en colonne
+\usepackage{subfigure}%permet de mettre deux photos avec une seule légende
+\usepackage{multirow}%pour faire plusieurs ligne en une dans un tableau
+%\usepackage{slashbox}%permet de couper en diagonal la première case en haut à  gauche d'un tableau
+\usepackage{array}%permet de rajouter des caractéristiques pour les colonnes d'un tableau
+\usepackage{todonotes}%permet de rajouter des notesii
+\usepackage{fancyhdr}%pour entete bas de page et numerotation de page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%MATHS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath}%packs pour le mod maths
+\usepackage{amssymb}%packs pour le mod maths
+\usepackage{amsfonts}%packs pour le mod maths
+\DecimalMathComma%pour préciser que décimal sont séparée par virgule
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%AUTRES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{url}%permet d'insÃ©rer des liens
+\usepackage{eurosym}%permet d'insÃ©rer des liens
+\usepackage{subfigure}%permet d'insÃ©rer des liens
+\setlength{\parindent}{0pt}%retire l'indentation
+\usepackage{xcolor}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%DESSIN
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage[european resistor, european voltage, european current]{circuitikz}
+\usetikzlibrary{arrows,shapes,positioning}
+\usetikzlibrary{decorations.markings,decorations.pathmorphing,decorations.pathreplacing}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%entête et pied de page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy} %: Numérotation des pages.
+\lhead{2019-2020} %entête et bas de page / haut gauche
+\chead{} %haut centre
+\rhead{ESAIP} %haut droite
+\lfoot{Prise de note: CB} %bas gauche
+\cfoot{Cours de } %bas centre
+\rfoot{\thepage} %bas droite
+%\leftmark: affiche le num et le nom de la section en cours
+%\thepage : donne le num de la page
+\renewcommand{\headrulewidth}{0.4pt} %: Trace un trait de séparation de largeur 0,4 point.
+%Mettre 0pt pour supprimer le trait.
+\renewcommand{\footrulewidth}{0.4pt} %: Trace un trait de séparation de largeur 0,4 point.
+%Mettre 0pt pour supprimer le trait.
+
+\begin{document}
+\hrule
+\begin{center}
+	\begin{Huge}
+	Gestion Financière
+	\end{Huge}
+\end{center}
+\hrule
+\tableofcontents
+
+\newpage
+\section{Comptabilité Financière}
+\subsection{L'entreprise et ses comptes} 
+
+\textbf{Définition de Comptabilité:}Traduction sous forme monétaire des des opérations économique et financière de l'entreprise\\
+
+La comptabilité consiste à enregistrer toutes les transactions \textbf{2 fois} (quelle ressource et quel emploi pour celle-ci). On a donc toujours, le \textbf{compte Débit à gauche}, et le \textbf{compte Crédit à droite}
+
+\begin{center}
+  Ex 1: Emprunt d'un an de 1000\euroà la banque\\
+\hfill
+
+\begin{minipage}{0.4\textwidth}
+  \begin{tabular}{c|c}
+    \multicolumn{2}{c}{Compte ``Banque''}  \\
+    &\\
+  Débit & Crédit\\
+    \hline
+  1000\euro & \\
+ \end{tabular}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+  \begin{tabular}{c|c}
+  \multicolumn{2}{c}{Compte ``Emprunts et Dettes''}  \\
+        & \\
+  Débit & Crédit\\
+    \hline
+  & 1000\euro \\
+ \end{tabular}
+\end{minipage}
+
+\end{center}
+
+
+\subsection{Comptabilité et Entreprise: Le BILAN}
+L'entreprise doit faire le bilan de ses ressources: Dettes et Produits\\
+Et de ses emplois: Biens et Charges\\
+
+
+Faire le bilan, c'est poser ACTIF\footnote{biens que l'entreprise possède} = PASSIF\footnote{ressources que l'entreprise a mobilisé pour acquérir les biens qu'elle possède}
+
+
+\subsubsection{ACTIF = Emploi}
+Ils se décomposent en 2 catégories: Actifs immobilisés et Actifs circulants\\
+
+\textbf{Actif Immobilisés:} Éléments utilisés sur plus d'un an. \begin{itemize}[\label=\textbullet]
+\item Immobilisations corporelles: terrain, construction, véhicules, matériel de bureau,\dots
+\item Immobilisations incorporelles: logiciel, fond de commerce, \dots
+\item Immobilisations Financière: titre, caution, dépôts, prêts, \dots 
+\end{itemize}
+\hfill
+
+
+\textbf{Actif Circulants} Éléments utilisés sur moins d'un an. \begin{itemize}[\label=\textbullet]
+  \item Stocks: matières premières, produit finis, marchandise, \dots
+  \item Créance client: ce que les clients doivent
+  \item Banque: VMP, Caisse,  \dots
+\end{itemize}
+
+\newpage
+\subsubsection{PASSIF = Ressources}
+Ils se décomposent en 2 catégories: Capitaux propres et dette financières\\
+
+\textbf{Capitaux Propres} \begin{itemize}[\label=\textbullet]
+  \item Capital social: mise de fond lors de la création d'entreprise. 
+  \item Réserves: accumulation de ressources depuis la création de l'entreprise.
+  \item résultats de l'exercice
+\end{itemize}
+\hfill
+
+
+\textbf{Dettes}\begin{itemize}[\label=\textbullet]
+  \item Dette financière
+  \item Dette fournisseur
+  \item Dettes fiscales et sociales
+  \item Autres
+\end{itemize}
+
+\subsection{Le compte de Résultat}
+
+Le compte de résultats peut être diviser entre les produits et les charges. Les charges sont les bénéfices, et les produit les Déficits.
+
+\section{Le BILAN}
+
+\subsection{Les actifs immobilisés}
+Lorsqu'on parle d'actifs immobilisés, on parle également d'amortissement. En effet, ces actifs se dégradent avec le temps, il faut donc les changer après X années. Ex: machine à 100,000\euro~sur 10 ans équivaut à 10,000\euro~par an. 
+
+
+\section{Le compte de Résultat}
+
+Présentation d'un compte de résultats simplifié
+
+\begin{center}
+\begin{tabular}{|l|l|l|l|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Débit}} & \multicolumn{2}{|c|}{\textbf{Crédit}}\\
+\hline
+\underline{Charges d'exploitation}& &\underline{Produit d'exploitation}&\\
+                       &&&\\
+Achat de marchandises & & Vente de marchandise&\\
+Achat de matières premières & & Production vendue&\\
+Variation de stocks & & Subvention d'exploitation  &\\
+Chartes Externes& & Autre produits&\\
+Autres impôts et taxes& & Reprise de production&\\
+Charges du personnel& & &\\
+Dotation et amortissement \& provision & & &\\
+                                       &&&\\
+\underline{Charges financières}& &\underline{Produit financier}&\\
+Intérêts && Revenus financier & \\
+Dotation aux provisions & & Reprise sur provisions&\\
+                                       &&&\\
+\underline{Charges exceptionnelles}& &\underline{Produits exceptionnels}&\\
+                                       &&&\\
+
+\hline
+\end{tabular}
+\end{center}
+
+\newpage
+\subsection{Calcul d'un résultat NET}
+\[
+  \left.
+  \begin{array}{rl}
+    \textrm{Produit~d'exploitation - Charges~d'exploitation = Résultat~d'exploitation }\\
+    \textrm{Produit~financier - Charges~financière = Résultat~financier}\\
+    \textrm{Produit~exceptionnel - Charges~exceptionnelles = Résultat~exceptionnel}
+\end{array}
+\right\}
+\textrm{Résultat Global}
+\]
+
+Si le résultat Global est $>0$ alors:\\
+$\textrm{résultat global} \times \textrm{taux impot sur société } \implies \textrm{impôt à payer sur société à payer}$\\
+
+
+$\textrm{Résultat net d'entreprise} = \textrm{Résultat Global} - \textrm{Impôt sur la société}$
+
+
+\section{TVA: Taxe sur la Valeur Ajoutée}
+
+\subsection{Définition}
+Impôt indirect qui n'affecte pas l'entreprise (ni charge, ni produit) et est calculée sur le montant hors taxes et doit figurer sur les factures.\\
+
+On a donc: $\begin{array}{l}
+  \textrm{TVA} = \textrm{Montant HT} \times \textrm{Taux TVA} \\
+  \textrm{TTC} = \textrm{Montant HT} \times \textrm{TVA}
+\end{array}$
+\hfill \\
+\hfill \\
+La TVA peut être à rendre à l'état (TVA collectée) ou alors à récupérer à l'état (TVA déductible). Le solde à payer est donc TVA collectée - TVA déductible.
+
+\subsection{Règles comptables}
+\begin{itemize}[\label=\textbullet]
+  \item Dans le bilan\begin{itemize}[\label=$\star$]
+  \item Immobilisation des stocks sont \textbf{\color{red} HT}
+  \item Créance client et dette fournisseur \textbf{\color{red} TTC}
+\end{itemize}
+\item Dans le compte de résultat les charges et les produits sont \textbf{\color{red} HT}
+\item TVA dans un compte tier (BILAN)
+\end{itemize}
+
+\section{Comptabilité de gestion}
+
+
+
+\end{document}
+
+
+

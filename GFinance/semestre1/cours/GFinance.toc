@@ -1,0 +1,15 @@
+\babel@toc {french}{}
+\contentsline {section}{\numberline {1}Comptabilit\'e Financi\`ere}{2}%
+\contentsline {subsection}{\numberline {1.1}L'entreprise et ses comptes}{2}%
+\contentsline {subsection}{\numberline {1.2}Comptabilit\'e et Entreprise: Le BILAN}{2}%
+\contentsline {subsubsection}{\numberline {1.2.1}ACTIF = Emploi}{2}%
+\contentsline {subsubsection}{\numberline {1.2.2}PASSIF = Ressources}{3}%
+\contentsline {subsection}{\numberline {1.3}Le compte de R\'esultat}{3}%
+\contentsline {section}{\numberline {2}Le BILAN}{3}%
+\contentsline {subsection}{\numberline {2.1}Les actifs immobilis\'es}{3}%
+\contentsline {section}{\numberline {3}Le compte de R\'esultat}{3}%
+\contentsline {subsection}{\numberline {3.1}Calcul d'un r\'esultat NET}{4}%
+\contentsline {section}{\numberline {4}TVA: Taxe sur la Valeur Ajout\'ee}{4}%
+\contentsline {subsection}{\numberline {4.1}D\'efinition}{4}%
+\contentsline {subsection}{\numberline {4.2}R\`egles comptables}{4}%
+\contentsline {section}{\numberline {5}Comptabilit\'e de gestion}{4}%

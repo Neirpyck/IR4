@@ -1,0 +1,297 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%BASE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{article}%defini caracteristique du document
+\usepackage[latin1]{inputenc}
+\usepackage{fontenc}
+\usepackage[french]{babel} %pour coder en francais%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%MISE EN PAGE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{lipsum} %pack pour faux text%
+\usepackage{ulem}%pour pouvoir souligner
+\usepackage{layout}%ajoute les page de description de mise en forme: marges etc
+\usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}%permet de definir les caracteristique des marges
+\usepackage{enumerate}%permet de faire certaine liste comme les articles de lois
+\usepackage{paralist}%permet de faire une liste numérotée dans un text
+\usepackage{graphicx}%permet d'intégrer des figure et graphics
+\usepackage{wrapfig}%permet de mettre une photo dans un text
+\usepackage{multicol}%permet d'écrire en colonne
+\usepackage{subfigure}%permet de mettre deux photos avec une seule légende
+\usepackage{multirow}%pour faire plusieurs ligne e&n une dans un tableau
+%\usepackage{slashbox}%permet de couper en diagonal la première case en haut à  gauche d'un tableau
+\usepackage{array}%permet de rajouter des caractéristiques pour les colonnes d'un tableau
+\usepackage{todonotes}%permet de rajouter des notesii
+\usepackage{fancyhdr}%pour entete bas de page et numerotation de page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%MATHS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath}%packs pour le mod maths
+\usepackage{amssymb}%packs pour le mod maths
+\usepackage{amsfonts}%packs pour le mod maths
+\DecimalMathComma%pour préciser que décimal sont séparée par virgule
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%AUTRES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{url}%permet d'insÃ©rer des liens
+\setlength{\parindent}{0pt}%retire l'indentation
+\usepackage{eurosym}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%DESSIN
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage[european resistor, european voltage, european current]{circuitikz}
+\usetikzlibrary{arrows,shapes,positioning}
+\usetikzlibrary{decorations.markings,decorations.pathmorphing,decorations.pathreplacing}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%entête et pied de page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy} %: Numérotation des pages.
+\lhead{2020-2021} %entête et bas de page / haut gauche
+\chead{} %haut centre
+\rhead{ESAIP} %haut droite
+\lfoot{} %bas gauche
+\cfoot{C. BARBAULT - R. GIROU} %bas centre
+\rfoot{\thepage} %bas droite
+%\leftmark: affiche le num et le nom de la section en cours
+%\thepage : donne le num de la page
+\renewcommand{\headrulewidth}{0.4pt} %: Trace un trait de séparation de largeur 0,4 point.
+%Mettre 0pt pour supprimer le trait.
+\renewcommand{\footrulewidth}{0.4pt} %: Trace un trait de séparation de largeur 0,4 point.
+%Mettre 0pt pour supprimer le trait.
+
+\begin{document}
+\hrule
+\begin{center}
+	\begin{Huge}
+	Gestion Financière -- Projet Applicatif
+	\end{Huge}
+\end{center}
+	\begin{figure}[!h]
+    \centering
+    \def\svgwidth{\columnwidth}
+    \input{sigma.pdf_tex}
+\end{figure}
+\hrule
+\tableofcontents
+
+\newpage
+\section{Présentation du projet}
+
+\subsection{Sigma Racing}
+
+En 2020, l'entreprise \textbf{Sigma} a lancé le concours \textbf{$<$IA/$>$ ~Racing}. L'objectif de ce concours est de construire de toute pièce une voiture miniature autonome. La création et l'entrainnement du modèle d'intelligence artificielle responsable de la conduite de la voiture est également à la charge de l'équipe.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.25]{donkey.jpg}
+\caption{Un exemple de ``Donkey car'', petite voitures autonome}
+\end{figure}
+
+Les équipes du concours sont à la fois étudiants ingénieurs (6 équipes, dont 2 de l'Esaip) et salariés du groupe sigma. 
+
+\subsection{Spécificités techniques}
+
+Pour que la voiture soit validée le jour de la course\footnote{À savoir, le 3 juin 2021}, elle doit valider quelques spécificités techniques:
+\begin{itemize}[~~~~\textbullet]
+\item Le véhicule doit posséder 4 roues
+\item Il doit avoir un gabarit de 30x25x25cm (longueur, largeur, hauteur)
+\item Peser 4kg maximum
+\item Avoir une batterie avec puissance maximale de 7800mAh
+\item Être équipe de 2 moteurs électriques maximum
+\item Être équipé d'un système d'arrêt à distance (coupe circuit)
+\item Être équipé d'un système de pilotage autonome (laser,  ultra  son, imagerie)
+\end{itemize}
+\hfill \\
+Il est également spécifié dans le réglement que le budget maximal autorisé est de 500\euro TTC\footnote{frais de déplacements non compris}
+
+
+\clearpage
+\section{Chiffrage}
+
+La voiture est constituées de divers éléments essentiel : la structure, le micro-ordinateur   et les capteurs. Intéressons nous d'abord à la structure\\
+
+Deux options s'offrent à nous : 
+\begin{itemize}[~~~~\textbullet]
+\item Acheter un kit \textbf{Robocar} ou \textbf{Donkey Car}
+\item Acheter chacune des pièces séparéments
+\end{itemize}
+
+
+\subsection{Achat d'un kit}
+
+Les kits déjà constitués offrent une solution ``de facilité''. En effet les pièces sont déjà toutes réunies pour mettre en place une voiture auntonome basique (pas de capteurs LIDAR\footnote{Capteur de distance par laser} ou Ultra-son). Cependant ils offrent moins de  liberté dans le choix des pièces et peuvent s'avérer plus chers.
+
+\subsubsection{Kit Donkey Car}
+
+Le kit Donkey Car est constitué de:
+\begin{itemize}[~~~~\textbullet]
+\item Une voiture modèle réduit au choix parmis 4\footnote{À savoir Exceed Magnet, Desert Monster, Blaze, ou Short Course Truck}
+\item Batterie de 6700mAh USB
+\item kit structure constitués des différents support pour micro-ordinateur et caméra
+\end{itemize}
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Pièce} & \textbf{Coût}\\
+\hline
+Modèle réduit & 90\euro \\
+Batterie 6700mAh & 22\euro \\
+Kit Structure & 82 \euro \\
+\hline
+\textbf{Total} & 194\euro\\
+\hline 
+
+\end{tabular}
+\end{table}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.15]{donkey-kit.jpg}
+\caption{Contenu du kit structure Donkey-Car}
+\end{figure}
+
+
+
+\subsubsection{Kit Robocar}
+
+Le kit Robocar est un peu particulier, il inclue la totalité des pièces nécessaire, y compris capteurs et ordinateurs:
+\begin{itemize}[~~~~\textbullet]
+\item HSP 94186 Brushed RC Car (Voiture modèle réduite)
+\item Structure imprimée en 3D 
+\item Base découpée au laser
+\item Raspberry Pi 4 (Cerveau de la voiture, micro-ordinateur)
+\item Caméra grand angle pour Raspberry
+\item 16Gb carte micro-SD (pour installer l'OS sur le Raspberry)
+\item Servo Driver PCA 9685 (pour controller les servos-moteurs des roues)
+\item DC-DC 5V/2A Voltage Converter (pour alimenter le Raspberry avec la batterie de la voiture)
+\item Divers autres pièces (vis, fils, \dots)
+\end{itemize}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.5]{robocar.jpg}
+\caption{Kit Robocar}
+\end{figure}
+
+Ce kit est disponible pour environ \textbf{230\euro}.
+
+
+
+\subsubsection{Comparaison}
+
+Le kit Donkey Car semble bien inférieur au kit Robocar, tout d'abord par l'absence de certains composant (pas de capteurs ni de micro-ordinateurs) mais également par son prix assez élevé. Comme \textbf{Sigma} nous propose d'imprimer nous même notre structure à l'aide de leurs imprimantes 3D, les 82\euro de structure pourraient être complétement annulés !
+
+\clearpage
+
+
+\subsection{Micro-ordinateur}
+
+La pièce la plus importante d'une voiture autonome est évidement son cerveau. Comment traduire en temps réel des images en signaux d'accélération, freinage et direction si la puissance n'est pas suffisante ?\\
+Pour chacune des option évoquée ci-dessous, il faut ajouter le prix d'une carte SD contenant l'OS, il faudra donc ajouter une vingtaine d'euros pour celle-ci.
+
+
+\subsubsection{Raspberry Pi}
+
+Le Raspberry Pi n'est plus à présenter, ce micro-ordinateur disponible pour une somme allant de 5 à 85\euro possède des connectiques essentielles pour gérer les servos-moteurs de direction.\\
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.25]{raspberry.jpeg}
+\caption{Un Raspberry Pi modèle 3b}
+\end{figure}
+
+
+Après quelques recherches sur internet, il s'avère qu'il est possible de faire tourner une Donkey Car avec n'importe quel Raspberry Pi, mais que les performance sont très moindre en dessous de la version 3b. \\
+
+Pour avoir les performance maximale, 2 options s'offrent à nous, la version 4Gb Ram ou la version 8Gb ram. Cette dernière est évidemment plus attrayante, mais également bien plus chère : 83.99\euro~contre 60.99\euro~pour la 4Gb. Le gain en performance ne justifie pas une telle augmentation du prix à nos yeux, nous nous contenteront de la version 4Gb si nous optons pour le Raspberry Pi comme micro-ordinateur.
+
+\clearpage
+
+\subsubsection{Jetson Nano}
+
+Le Jetson nano est un des principaux concurrents du raspberry pi, surtout lorque l'on parle d'IA. Sa puissance réside dans la présence d'un GPU qui accélère grandement le traitement d'image et le calcul IA. Il possède également les même pin GPIO que le Raspberry Pi.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.25]{jetson.jpeg}
+\end{figure}
+
+2 modèles de Jetson Nano sont disponnibles: avec 2 ou 4 Gb de ram, respectivement pour 59 et 89 euros.
+
+Le gain de performance est vraiment très important par rapport à un raspberry pi, mais la version 2Gb de Ram n'est peut être pas suffisante, cela impliquera de passer directement à la version 4Gb du Jetson.
+
+\subsubsection{Autres options}
+
+Si nous nous tournous vers un rapsberry pi, nous avons également la possibilité de choisir d'améliorer ses performance à l'aide d'une ``Compute Units''. Ces sticks USB sont optimisé pour le calcul de modèle de machine learning et traitent les calculs à la place du Raspberry Pi. 
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.2]{intel_cu.jpeg}\includegraphics[scale=0.1]{coral.jpg}
+\caption{Deux type de compute stick (Intel Neural Compute Stick et Google Coral)}
+\end{figure}
+
+Ce genre de matériel est disponible entre  60  et 80 euros.
+\clearpage
+\subsection{Capteurs}
+
+Les capteurs officiels Raspberry sont compatible avec le Jetson Nano, nous avons donc à notre disposition:
+\begin{itemize}[~~~~\textbullet]
+\item Caméra Basique 8MPX  27.90\euro
+\item Lentille grand angle 27.60\euro
+\item Caméra 160° 16.90\euro
+\item Caméra 5MPX grand angle 34.95\euro
+\item Capteur LIDAR 157\euro
+\item Capteur ultrason 4.90\euro
+\end{itemize}
+\hfill \\
+Partir sur un système simple de caméra avec grand angle est l'option la plus économique de très loin. Mais la mise en place d'un système LIDAR est plus proche de la réalité des véhicules autonomes, et bien plus performant. La mise en place d'un capteur ultra reste peu onéreux et très utile dans la detection des obstacles.
+
+
+\clearpage
+\section{Bilan Comptable}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.5]{bilan.png}
+\caption{Bilan financement estimé de la voiture}
+\end{figure}
+
+Une fois la totalité des informations entré dans notre bilan comptable, nous pouvons remarquer qu'il nous reste 245\euro~de marge. Cet argent pourra être utilisé pour faire face aux imprévus ou alors pour passer à la game supérieur de micro ordinateur, de moteurs, ou encore ajouter un compute stick ou des capteurs suplémentaires.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
