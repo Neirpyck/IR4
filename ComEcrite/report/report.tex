@@ -1,0 +1,94 @@
+\documentclass[12pt]{lettre}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{tikz}
+
+\makeatletter
+   \newcommand*{\NoRule}{\renewcommand*{\rule@length}{0}}
+\makeatother
+
+
+\newcommand{\slice}[4]{
+  \pgfmathparse{0.5*#1+0.5*#2}
+  \let\midangle\pgfmathresult
+
+  % slice
+  \draw[thick,fill=black!10] (0,0) -- (#1:1) arc (#1:#2:1) -- cycle;
+
+  % outer label
+  \node[label=#4] at (\midangle:1.5) {};
+
+  % inner label
+  \pgfmathparse{min((#2-#1-10)/110*(-0.3),0)}
+  \let\temp\pgfmathresult
+  \pgfmathparse{max(\temp,-0.5) + 0.8}
+  \let\innerpos\pgfmathresult
+  \node at (\midangle:\innerpos) {#3};
+}
+
+\begin{document}
+\begin{letter}{Responsable commercial\\ Monsieur DUBOIS\\}
+	\name{Assistant Responsable commercial\\Monsieur BARBAULT~~~~~~~~~~~~~~~~}
+	\address{Agence de voyage HAVAS}
+	\lieu{Angers}    
+	\nofax
+	\date{le 3 f\'evrier 2020}
+    \notelephone
+\NoRule
+
+\conc{Probl\`e{}me dans l'addressage des publipostage}
+\opening{}
+
+Suite \`a une action de mailing, le service commercial de notre agence a remarqu\'e un taux de rendement tr\`es faible. De plus de nombreux courriers, lui ont \'et\'es retourn\'es avec la mention "N'habite pas \`a l'addresse".\\
+
+\textbf{I. D\'emarche adopt\'ee}
+
+Pour comprendre ces r\'esultats, nous avons r\'ealis\'e un sondage t\'el\'ephonique aupr\`es de 30 de nos clients. Les r\'esultats sont les suivants : 
+
+\begin{center}
+\begin{tikzpicture}[scale=2.5]
+
+\newcounter{a}
+\newcounter{b}
+\foreach \p/\t in {8/N'ont rien re\c{c}u, 6/Ont re\c{c}u 2 ou 3 fois, 5/N'ont pas eu envie de lire la lettre~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~,
+                   4/Envisagent de passer \`a l'agence, 7/~~~~~~~~~~~~~~~~~Ne sont pas interr\'ess\'es}
+  {
+    \setcounter{a}{\value{b}}
+    \addtocounter{b}{\p}
+    \slice{\thea/30*360}
+          {\theb/30*360}
+          {\p}
+          {\t}
+  }
+
+\end{tikzpicture}
+\end{center}
+
+\textbf{II. Analyse}
+
+En \'etudiant les r\'esulats, on observe deux points importants : 
+\begin{itemize}
+\item Une majorit\'e des clients n'ont pas re\c{c}u la lettre ou l'ont re\c{c}u en plusieurs exemplaires
+\item Les clients l'ayant re\c{c}u n'ont pas \'et\'e int\'erress\'es par notre offre.
+\end{itemize}
+\hfill \\
+
+En observant l'annuaire utilis\'e dans le cadre du publipostage des lettres, nous avons en effet observ\'e une inconsistance dans le formattage des donn\'es. Ces inconstances, bien qu'anodines au premier abord, s'av\`erent en r\'ealit\'e \^{e}tre la source du probl\`eme d'addressage.
+
+\hfill \\    
+\textbf{III. Mesures correctives}
+
+Pour palier ces probl\`emes, nous avons proc\'ed\'e \`a deux mesures correctives : 
+
+Tout d'abord nous avons enti\`erement revu le formattage de notre anuaire, et mis en place des r\`egles de mise en forme automatique. L'interface qui permet de renseigner les informations client a \'egalement \'et\'e revu pour que les erreurs de saisie ne soient pas permises.
+
+En ce qui concerne l'offre promotionnelle, nous avons d\'ecid\'e de revoir la lettre de mani\`ere \`a mieux cibler notre clientelle. Le nouveau design sera disponible d'ici tr\`es peu de temps.
+
+
+\hfill \\
+
+Nous sommes convaincus que la prochaine action de mailing, qui sera r\'ealis\'ee \`a l'approche des prochaines vacances, ne sera donc pas soumise aux m\^{e}mes probl\`emes que celle-ci.
+\closing{}
+\end{letter}
+\end{document}
