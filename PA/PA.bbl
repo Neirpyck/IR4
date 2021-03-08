@@ -1,0 +1,172 @@
+\begin{thebibliography}{10}
+
+\bibitem{DriveInMinute}
+Raffin Antonin and Sokolkov Roma.
+\newblock Learning to drive smoothly in minutes.
+\newblock \url{https://github.com/araffin/learning-to-drive-in-5-minutes/},
+  2019.
+
+\bibitem{PID}
+Autorope.
+\newblock
+  \url{https://github.com/autorope/donkeycar/blob/master/donkeycar/parts/transform.py}.
+
+\bibitem{DonkeyRC}
+Cian B.
+\newblock Donkey car simulator with real rc controller.
+\newblock
+  \url{https://www.hackster.io/wallarug/donkey-car-simulator-with-real-rc-controller-628e77},
+  05 2020.
+
+\bibitem{DonkeyJetsonNanon}
+Cian B.
+\newblock Donkey car with jetson nano robo hat mm1.
+\newblock
+  \url{https://www.hackster.io/wallarug/donkey-car-with-jetson-nano-robo-hat-mm1-e53e21},
+  05 2020.
+
+\bibitem{SDC-ControlDesign}
+Engin Bozkurt.
+\newblock Self driving car control design.
+\newblock \url{https://github.com/enginBozkurt/SelfDrivingCarsControlDesign}.
+
+\bibitem{DonkeySim}
+Donkey Car.
+\newblock Donkey simulator.
+\newblock \url{https://docs.donkeycar.com/guide/simulator/}, Unknown.
+
+\bibitem{JetsonGettingStarted}
+Fei Cheung.
+\newblock Getting started with jetson nano and donkey car aka autonomous car.
+\newblock
+  \url{https://medium.com/@feicheung2016/getting-started-with-jetson-nano-and-autonomous-donkey-car-d4f25bbd1c83},
+  04 2019.
+
+\bibitem{RNN-Intro}
+Jeremy Cohen.
+\newblock Deep reinforcement learning for self-driving cars — an intro.
+\newblock
+  \url{https://thinkautonomous.medium.com/deep-reinforcement-learning-for-self-driving-cars-an-intro-4c8c08e6d06b},
+  12 2019.
+
+\bibitem{AWSWin}
+Roscoe (daduce).
+\newblock How i'd try to win the 36 hour self driving hackathon at aws
+  reinvent.
+\newblock
+  \url{https://www.donkeycar.com/updates/what-id-try-to-win-the-36-hour-self-driving-hackathon-at-aws-reinvent},
+  11 2017.
+
+\bibitem{AlphaGo}
+DeepMind.
+\newblock Alphago.
+\newblock
+  \url{https://deepmind.com/research/case-studies/alphago-the-story-so-far},
+  Unknown.
+
+\bibitem{AC-Algorithm}
+Dexlab.
+\newblock Machine learning - algorithm used in autonomous car - a study.
+\newblock
+  \url{https://www.dexlabanalytics.com/blog/machine-learning-algorithms-in-self-driving-cars},
+  03 2020.
+
+\bibitem{GT-RNN}
+Florian Fuchs Yunlong Song Elia Kaufmann Davide Scaramuzza~Peter Durr.
+\newblock Super-human performance in gran turismo sport using deep
+  reinforcement learning.
+\newblock \url{https://arxiv.org/pdf/2008.07971v1.pdf}, 2008.
+
+\bibitem{2ndEd}
+Aur\'elien G\'eron.
+\newblock {\em Hands-On-Machine Learning with Scikit-Learn\, Keras \&
+  TensorFlow 2nd Edition}.
+\newblock O'Reilly, 2019.
+
+\bibitem{ImitationLearning}
+Raj K.
+\newblock Donkey car - imitation learning.
+\newblock \url{https://github.com/RajK853/DonkeyCar}.
+
+\bibitem{GymDonkey}
+Tawn Kraner.
+\newblock Openai gym environments for donkey car.
+\newblock \url{https://github.com/tawnkramer/gym-donkeycar}, Unknown.
+
+\bibitem{PilotNet}
+Nvidia.
+\newblock Pilotnet: End to end learning for self-driving cars.
+\newblock \url{https://github.com/lhzlhz/PilotNet}.
+
+\bibitem{Dataset}
+Yuichi Okuyama.
+\newblock donkey-data.
+\newblock \url{https://github.com/hogenimushi/donkey_data}.
+
+\bibitem{OpenAI}
+OpenAI.
+\newblock Gym.
+\newblock \url{https://gym.openai.com/}.
+
+\bibitem{imageDataset}
+RobocarStore.
+\newblock donkeycar-images.
+\newblock \url{https://github.com/robocarstore/donkeycar-images}, Unknown.
+
+\bibitem{ColabTraining}
+Sachin.
+\newblock Self driving car using google colab.
+\newblock
+  \url{https://github.com/sachindroid8/self-driving-car-using-google-colab}.
+
+\bibitem{Carla-SD}
+Sentdex.
+\newblock Introduction - self-driving cars with carla and python part 1.
+\newblock
+  \url{https://pythonprogramming.net/introduction-self-driving-autonomous-cars-carla-python/}.
+
+\bibitem{SigmaRacing}
+Groupe Sigma.
+\newblock D\'evelopper la proximite entreprise / \'etudiants : Ia racing.
+\newblock
+  \url{https://www.sigma.fr/2020/12/03/favoriser-une-intimite-plus-grande-entre-lentreprise-et-les-etudiants/},
+  2020.
+
+\bibitem{Udacity}
+Rayan Slim Amer Sharaf Jad Slim~Sarmad Tanveer.
+\newblock The complete self-driving car course - applied deep learning.
+\newblock
+  \url{https://www.udemy.com/course/applied-deep-learningtm-the-complete-self-driving-car-course/},
+  09 2020.
+
+\bibitem{UdacitySim}
+Udacity.
+\newblock self-driving-car-sim.
+\newblock \url{https://github.com/udacity/self-driving-car-sim}, Unknown.
+
+\bibitem{PossibleCar}
+Unknown.
+\newblock Exceed rc truck radio car 1/16 2.4ghz magnet ep electric powered rtr
+  off road truck stripe blue rc remote control car.
+\newblock \url{https://www.nitrorcx.com/51c853-stripeblue-24-ghz.html}.
+
+\bibitem{OpenDataset}
+Unknown.
+\newblock Open datasets.
+\newblock \url{https://diyrobocars.com/open-datasets/}.
+
+\bibitem{DriveInMinutes}
+Unknown.
+\newblock Learning to drive smoothly in minutes.
+\newblock
+  \url{https://towardsdatascience.com/learning-to-drive-smoothly-in-minutes-450a7cdb35f4},
+  01 2019.
+
+\bibitem{RNNDonkeySim}
+Felix Yu.
+\newblock Train donkey car in unity simulator with reinforcement learning.
+\newblock
+  \url{https://flyyufelix.github.io/2018/09/11/donkey-rl-simulation.html}, 09
+  2018.
+
+\end{thebibliography}

@@ -1,0 +1,31 @@
+[0] Config.pm:312> INFO - This is Biber 2.15 running in TOOL mode
+[0] Config.pm:315> INFO - Logfile is 'bib.bib.blg'
+[59] biber:330> INFO - === Tue Jan  5, 2021, 19:10:48
+[81] Biber.pm:4519> INFO - Looking for bibtex format file 'bib.bib'
+[82] bibtex.pm:1682> INFO - LaTeX decoding ...
+[98] bibtex.pm:1494> INFO - Found BibTeX data source 'bib.bib'
+[206] Biber.pm:1641> INFO - Datamodel validation starting
+[206] Utils.pm:384> WARN - Datamodel: Entry 'AlphaGo' (bib.bib): Missing mandatory field - one of 'date, year' must be defined
+[206] Utils.pm:384> WARN - Datamodel: Entry 'DonkeySim' (bib.bib): Missing mandatory field - one of 'date, year' must be defined
+[207] Utils.pm:384> WARN - Datamodel: Entry 'imageDataset' (bib.bib): Missing mandatory field - one of 'date, year' must be defined
+[207] Utils.pm:384> WARN - Datamodel: Entry 'GymDonkey' (bib.bib): Missing mandatory field - one of 'date, year' must be defined
+[207] Utils.pm:384> WARN - Datamodel: Entry 'UdacitySim' (bib.bib): Missing mandatory field - one of 'date, year' must be defined
+[207] Utils.pm:384> WARN - Datamodel: Entry 'OpenDataset' (bib.bib): Missing mandatory field - one of 'date, year' must be defined
+[207] Utils.pm:384> WARN - Datamodel: Entry 'PossibleCar' (bib.bib): Missing mandatory field - one of 'date, year' must be defined
+[207] Utils.pm:384> WARN - Datamodel: Entry 'ImitationLearning' (bib.bib): Missing mandatory field - one of 'date, year' must be defined
+[207] Utils.pm:384> WARN - Datamodel: Entry 'ColabTraining' (bib.bib): Missing mandatory field - one of 'date, year' must be defined
+[207] Utils.pm:384> WARN - Datamodel: Entry 'Dataset' (bib.bib): Missing mandatory field - one of 'date, year' must be defined
+[207] Utils.pm:384> WARN - Datamodel: Entry 'SDC-ControlDesign' (bib.bib): Missing mandatory field - one of 'date, year' must be defined
+[208] Utils.pm:384> WARN - Datamodel: Entry 'PID' (bib.bib): Missing mandatory field - one of 'date, year' must be defined
+[208] Utils.pm:384> WARN - Datamodel: Entry 'PID' (bib.bib): Missing mandatory field 'title'
+[208] Utils.pm:384> WARN - Datamodel: Entry 'Carla-SD' (bib.bib): Missing mandatory field - one of 'date, year' must be defined
+[208] Utils.pm:384> WARN - Datamodel: Entry 'PilotNet' (bib.bib): Missing mandatory field - one of 'date, year' must be defined
+[208] Biber.pm:1684> INFO - Datamodel validation complete
+[215] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[216] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[216] Biber.pm:4162> INFO - Sorting list 'tool/global//global/global' of type 'entry' with template 'tool' and locale 'en_US'
+[216] Biber.pm:4168> INFO - No sort tailoring available for locale 'en_US'
+[231] bibtex.pm:392> INFO - Writing 'bib_bibertool.bib' with encoding 'UTF-8'
+[231] bibtex.pm:393> INFO - Converting UTF-8 to TeX macros on output
+[232] bibtex.pm:422> INFO - Output to bib_bibertool.bib
+[232] Biber.pm:128> INFO - WARNINGS: 15

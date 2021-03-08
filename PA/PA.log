@@ -1,0 +1,1688 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.11.17)  6 JAN 2021 19:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**PA.tex
+(./PA.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-07-17>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/07/13 3.47 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/07/13 3.47 Babel common definitions
+\babel@savecnt=\count176
+\U@D=\dimen135
+\l@babelnohyphens=\language86
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count177
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language40) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language40) on input line 108.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-07-17 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count178
+\l__pdf_internal_box=\box45
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
+\l__xparse_current_arg_int=\count179
+\g__xparse_grabber_int=\count180
+\l__xparse_m_args_int=\count181
+\l__xparse_v_nesting_int=\count182
+))
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box46
+\UL@hyphenbox=\box47
+\UL@skip=\skip49
+\UL@hook=\toks17
+\UL@height=\dimen136
+\UL@pe=\count183
+\UL@pixel=\dimen137
+\ULC@box=\box48
+Package: ulem 2019/11/18
+\ULdepth=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/layout.sty
+Package: layout 2014/10/28 v1.2c Show layout parameters
+\oneinch=\count184
+\cnt@paperwidth=\count185
+\cnt@paperheight=\count186
+\cnt@hoffset=\count187
+\cnt@voffset=\count188
+\cnt@textheight=\count189
+\cnt@textwidth=\count190
+\cnt@topmargin=\count191
+\cnt@oddsidemargin=\count192
+\cnt@evensidemargin=\count193
+\cnt@headheight=\count194
+\cnt@headsep=\count195
+\cnt@marginparsep=\count196
+\cnt@marginparwidth=\count197
+\cnt@marginparpush=\count198
+\cnt@footskip=\count199
+\fheight=\count266
+\ref@top=\count267
+\ref@hoffset=\count268
+\ref@voffset=\count269
+\ref@head=\count270
+\ref@body=\count271
+\ref@foot=\count272
+\ref@margin=\count273
+\ref@marginwidth=\count274
+\ref@marginpar=\count275
+\Interval=\count276
+\ExtraYPos=\count277
+\PositionX=\count278
+\PositionY=\count279
+\ArrowLength=\count280
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count281
+\Gm@cntv=\count282
+\c@Gm@tempcnt=\count283
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks19
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks20
+)
+(/usr/share/texlive/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip50
+\plpartopsep=\skip51
+\plitemsep=\skip52
+\plparsep=\skip53
+\pl@lab=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen149
+\WF@size=\dimen150
+\c@WF@wrappedlines=\count284
+\WF@box=\box49
+\WF@everypar=\toks22
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count285
+\mult@box=\box50
+\multicol@leftmargin=\dimen151
+\c@unbalance=\count286
+\c@collectmore=\count287
+\doublecol@number=\count288
+\multicoltolerance=\count289
+\multicolpretolerance=\count290
+\full@width=\dimen152
+\page@free=\dimen153
+\premulticols=\dimen154
+\postmulticols=\dimen155
+\multicolsep=\skip54
+\multicolbaselineskip=\skip55
+\partial@page=\box51
+\last@line=\box52
+\maxbalancingoverflow=\dimen156
+\mult@rightbox=\box53
+\mult@grightbox=\box54
+\mult@gfirstbox=\box55
+\mult@firstbox=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\c@minrows=\count291
+\c@columnbadness=\count292
+\c@finalcolumnbadness=\count293
+\last@try=\dimen157
+\multicolovershoot=\dimen158
+\multicolundershoot=\dimen159
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count294
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip56
+\subfigcapskip=\skip57
+\subfigcaptopadj=\dimen160
+\subfigbottomskip=\skip58
+\subfigcapmargin=\dimen161
+\subfiglabelskip=\skip59
+\c@subfigure=\count295
+\c@lofdepth=\count296
+\c@subtable=\count297
+\c@lotdepth=\count298
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip60
+\subfig@bottom=\skip61
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip62
+\multirow@cntb=\count299
+\multirow@dima=\skip63
+\bigstrutjot=\dimen162
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen163
+\ar@mcellbox=\box96
+\extrarowheight=\dimen164
+\NC@list=\toks23
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box97
+)
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2019/01/24 v1.1.2 Todonotes source and documentation.
+Package: todonotes 2018/11/22
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
+)
+\XKV@depth=\count300
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen165
+\pgfutil@tempdimb=\dimen166
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box98
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen167
+\pgf@y=\dimen168
+\pgf@xa=\dimen169
+\pgf@ya=\dimen170
+\pgf@xb=\dimen171
+\pgf@yb=\dimen172
+\pgf@xc=\dimen173
+\pgf@yc=\dimen174
+\pgf@xd=\dimen175
+\pgf@yd=\dimen176
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count301
+\c@pgf@countb=\count302
+\c@pgf@countc=\count303
+\c@pgf@countd=\count304
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count305
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count306
+\pgfsyssoftpath@bigbuffer@items=\count307
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen177
+\pgfmath@count=\count308
+\pgfmath@box=\box99
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count309
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen178
+\pgf@picmaxx=\dimen179
+\pgf@picminy=\dimen180
+\pgf@picmaxy=\dimen181
+\pgf@pathminx=\dimen182
+\pgf@pathmaxx=\dimen183
+\pgf@pathminy=\dimen184
+\pgf@pathmaxy=\dimen185
+\pgf@xx=\dimen186
+\pgf@xy=\dimen187
+\pgf@yx=\dimen188
+\pgf@yy=\dimen189
+\pgf@zx=\dimen190
+\pgf@zy=\dimen191
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen192
+\pgf@path@lasty=\dimen193
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen194
+\pgf@shorten@start@additional=\dimen195
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box100
+\pgf@hbox=\box101
+\pgf@layerbox@main=\box102
+\pgf@picture@serial@count=\count310
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen196
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen197
+\pgf@pt@y=\dimen198
+\pgf@pt@temp=\dimen199
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen256
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen257
+\pgf@sys@shading@range@num=\count311
+\pgf@shadingcount=\count312
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box103
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box104
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen258
+\pgf@nodesepend=\dimen259
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen260
+\pgffor@skip=\dimen261
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count313
+\pgfplotmarksize=\dimen262
+)
+\tikz@lastx=\dimen263
+\tikz@lasty=\dimen264
+\tikz@lastxsaved=\dimen265
+\tikz@lastysaved=\dimen266
+\tikz@lastmovetox=\dimen267
+\tikz@lastmovetoy=\dimen268
+\tikzleveldistance=\dimen269
+\tikzsiblingdistance=\dimen270
+\tikz@figbox=\box105
+\tikz@figbox@bg=\box106
+\tikz@tempbox=\box107
+\tikz@tempbox@bg=\box108
+\tikztreelevel=\count314
+\tikznumberofchildren=\count315
+\tikznumberofcurrentchild=\count316
+\tikz@fig@count=\count317
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count318
+\pgfmatrixcurrentcolumn=\count319
+\pgf@matrix@numberofcolumns=\count320
+)
+\tikz@expandcount=\count321
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
+.tex
+File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count322
+\calc@Bcount=\count323
+\calc@Adimen=\dimen271
+\calc@Bdimen=\dimen272
+\calc@Askip=\skip66
+\calc@Bskip=\skip67
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count324
+\calc@Cskip=\skip68
+)
+\c@@todonotes@numberoftodonotes=\count325
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip69
+\f@nch@O@elh=\skip70
+\f@nch@O@erh=\skip71
+\f@nch@O@olh=\skip72
+\f@nch@O@orh=\skip73
+\f@nch@O@elf=\skip74
+\f@nch@O@erf=\skip75
+\f@nch@O@olf=\skip76
+\f@nch@O@orf=\skip77
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip78
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks38
+\ex@=\dimen273
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen274
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count326
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count327
+\leftroot@=\count328
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count329
+\DOTSCASE@=\count330
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box109
+\strutbox@=\box110
+\big@size=\dimen275
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count331
+\c@MaxMatrixCols=\count332
+\dotsspace@=\muskip16
+\c@parentequation=\count333
+\dspbrk@lvl=\count334
+\tag@help=\toks39
+\row@=\count335
+\column@=\count336
+\maxfields@=\count337
+\andhelp@=\toks40
+\eqnshift@=\dimen276
+\alignsep@=\dimen277
+\tagshift@=\dimen278
+\tagwidth@=\dimen279
+\totwidth@=\dimen280
+\lineht@=\dimen281
+\@envbody=\toks41
+\multlinegap=\skip79
+\multlinetaggap=\skip80
+\mathdisplay@stack=\toks42
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box111
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pythonhighlight/pythonhighlight.sty
+Package: pythonhighlight 2017/02/09 python code highlighting; provided by Olivi
+er Verdier <olivier.verdier@gmail.com>
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count338
+\lst@gtempboxa=\box112
+\lst@token=\toks43
+\lst@length=\count339
+\lst@currlwidth=\dimen282
+\lst@column=\count340
+\lst@pos=\count341
+\lst@lostspace=\dimen283
+\lst@width=\dimen284
+\lst@newlines=\count342
+\lst@lineno=\count343
+\lst@maxwidth=\dimen285
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count344
+\lst@skipnumbers=\count345
+\lst@framebox=\box113
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count346
+\float@exts=\toks44
+\float@box=\box114
+\@float@everytoks=\toks45
+\@floatcapt=\box115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count347
+\c@@ppsavesec=\count348
+\c@@ppsaveapp=\count349
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)))
+\AM@pagewidth=\dimen286
+\AM@pageheight=\dimen287
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box116
+\AM@global@opts=\toks46
+\AM@pagecnt=\count350
+\AM@toc@title=\toks47
+\c@AM@survey=\count351
+\AM@templatesizebox=\box117
+) (./PA.aux
+(./tex/page_garde.aux) (./tex/thanks.aux) (./tex/introduction.aux)
+(./tex/specifications.aux) (./tex/project_management.aux)
+(./tex/tech_overview.aux) (./tex/conclusion.aux) (./tex/biblio.aux)
+(./tex/annexe.aux))
+\openout1 = `PA.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count352
+\scratchdimen=\dimen288
+\scratchbox=\box118
+\nofMPsegments=\count353
+\nofMParguments=\count354
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count355
+\MPscratchDim=\dimen289
+\MPnumerator=\count356
+\makeMPintoPDFobject=\count357
+\everyMPtoPDFconversion=\toks49
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 61.
+
+\c@lstlisting=\count358
+\AtBeginShipoutBox=\box119
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+\openout2 = `tex/page_garde.aux'.
+
+
+(./tex/page_garde.tex
+<img/esaip_logo.png, id=29, 602.25pt x 288.07625pt>
+File: img/esaip_logo.png Graphic file (type png)
+<use img/esaip_logo.png>
+Package pdftex.def Info: img/esaip_logo.png  used on input line 6.
+(pdftex.def)             Requested size: 108.40031pt x 51.85147pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<sigma.pdf, id=31, 573.82079pt x 131.9891pt>
+File: sigma.pdf Graphic file (type pdf)
+<use sigma.pdf>
+Package pdftex.def Info: sigma.pdf  used on input line 30.
+(pdftex.def)             Requested size: 136.57462pt x 31.41418pt.
+ [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/esaip_logo.png> <./s
+igma.pdf>])
+(./PA.toc)
+\tf@toc=\write4
+\openout4 = `PA.toc'.
+
+ [1
+
+]
+\openout2 = `tex/thanks.aux'.
+
+ (./tex/thanks.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+[2
+
+])
+\openout2 = `tex/introduction.aux'.
+
+ (./tex/introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+(./sigma.pdf_tex
+<sigma.pdf, id=55, page=1, 573.82079pt x 131.9891pt>
+File: sigma.pdf Graphic file (type pdf)
+<use sigma.pdf, page 1>
+Package pdftex.def Info: sigma.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 318.66948pt x 73.29912pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 13.59999pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[1
+
+
+ <./sigma.pdf>])
+\openout2 = `tex/specifications.aux'.
+
+ (./tex/specifications.tex
+<img/donkey.jpg, id=68, 901.3675pt x 803.0pt>
+File: img/donkey.jpg Graphic file (type jpg)
+<use img/donkey.jpg>
+Package pdftex.def Info: img/donkey.jpg  used on input line 19.
+(pdftex.def)             Requested size: 180.2703pt x 160.59715pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+[2
+
+
+
+ <./img/donkey.jpg>]
+<img/road.jpeg, id=75, 211.54031pt x 217.5628pt>
+File: img/road.jpeg Graphic file (type jpg)
+<use img/road.jpeg>
+Package pdftex.def Info: img/road.jpeg  used on input line 42.
+(pdftex.def)             Requested size: 211.53978pt x 217.56227pt.
+ [3 <./img/road.jpeg>])
+\openout2 = `tex/project_management.aux'.
+
+ (./tex/project_management.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+<img/devops.jpg, id=79, 1926.19624pt x 985.6825pt>
+File: img/devops.jpg Graphic file (type jpg)
+<use img/devops.jpg>
+Package pdftex.def Info: img/devops.jpg  used on input line 12.
+(pdftex.def)             Requested size: 462.29655pt x 236.56863pt.
+
+Overfull \hbox (7.05244pt too wide) in paragraph at lines 12--13
+ [][] 
+ []
+
+<img/handsonml.jpeg, id=80, 493.845pt x 650.43pt>
+File: img/handsonml.jpeg Graphic file (type jpg)
+<use img/handsonml.jpeg>
+Package pdftex.def Info: img/handsonml.jpeg  used on input line 21.
+(pdftex.def)             Requested size: 108.01324pt x 142.26378pt.
+[4
+
+
+
+ <./img/devops.jpg> <./img/handsonml.jpeg>]
+<img/autonomous_driving.jpeg, id=85, 1606.0pt x 1053.9375pt>
+File: img/autonomous_driving.jpeg Graphic file (type jpg)
+<use img/autonomous_driving.jpeg>
+Package pdftex.def Info: img/autonomous_driving.jpeg  used on input line 32.
+(pdftex.def)             Requested size: 284.52756pt x 186.70935pt.
+ [5
+
+ <./img/autonomous_driving.jpeg>])
+\openout2 = `tex/tech_overview.aux'.
+
+ (./tex/tech_overview.tex
+<img/udacity_sim.png, id=89, 616.704pt x 461.92575pt>
+File: img/udacity_sim.png Graphic file (type png)
+<use img/udacity_sim.png>
+Package pdftex.def Info: img/udacity_sim.png  used on input line 14.
+(pdftex.def)             Requested size: 170.71652pt x 127.87225pt.
+<img/donkey_sim.png, id=90, 1927.2pt x 1084.05pt>
+File: img/donkey_sim.png Graphic file (type png)
+<use img/donkey_sim.png>
+Package pdftex.def Info: img/donkey_sim.png  used on input line 19.
+(pdftex.def)             Requested size: 227.62204pt x 128.02927pt.
+<img/track.png, id=91, 2508.37125pt x 1947.275pt>
+File: img/track.png Graphic file (type png)
+<use img/track.png>
+Package pdftex.def Info: img/track.png  used on input line 29.
+(pdftex.def)             Requested size: 284.52756pt x 220.85661pt.
+ [6
+
+
+
+ <./img/udacity_sim.png> <./img/donkey_sim.png> <./img/track.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7
+
+] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+<img/opencv.png, id=102, 429.605pt x 379.4175pt>
+File: img/opencv.png Graphic file (type png)
+<use img/opencv.png>
+Package pdftex.def Info: img/opencv.png  used on input line 200.
+(pdftex.def)             Requested size: 107.40099pt x 94.85414pt.
+[9 <./img/opencv.png>] [10] (./openai.pdf_tex
+<openai.pdf, id=110, page=1, 1303.79405pt x 320.84868pt>
+File: openai.pdf Graphic file (type pdf)
+<use openai.pdf, page 1>
+Package pdftex.def Info: openai.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 318.66948pt x 78.42012pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
+
+ []
+
+<img/Reinforcement_learning_diagram.png, id=111, 501.875pt x 484.81125pt>
+File: img/Reinforcement_learning_diagram.png Graphic file (type png)
+<use img/Reinforcement_learning_diagram.png>
+Package pdftex.def Info: img/Reinforcement_learning_diagram.png  used on input 
+line 233.
+(pdftex.def)             Requested size: 284.52756pt x 274.86575pt.
+[11
+
+ <./openai.pdf> <./img/Reinforcement_learning_diagram.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+
+ []
+
+<img/openai_gym_environment.png, id=118, 1355.0625pt x 1355.0625pt>
+File: img/openai_gym_environment.png Graphic file (type png)
+<use img/openai_gym_environment.png>
+Package pdftex.def Info: img/openai_gym_environment.png  used on input line 262
+.
+(pdftex.def)             Requested size: 203.2506pt x 203.2506pt.
+[12
+
+ <./img/openai_gym_environment.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+<img/linux.jpeg, id=124, 963.6pt x 1284.8pt>
+File: img/linux.jpeg Graphic file (type jpg)
+<use img/linux.jpeg>
+Package pdftex.def Info: img/linux.jpeg  used on input line 293.
+(pdftex.def)             Requested size: 125.2724pt x 167.02986pt.
+
+Underfull \hbox (badness 5878) in paragraph at lines 294--294
+[]\OT1/cmr/m/n/10.95 Figure 11: The Linux server
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+\OT1/cmr/m/n/10.95 we used for our train-ing :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+[]
+ []
+
+<img/keras.png, id=125, 1810.765pt x 1573.88pt>
+File: img/keras.png Graphic file (type png)
+<use img/keras.png>
+Package pdftex.def Info: img/keras.png  used on input line 299.
+(pdftex.def)             Requested size: 235.40771pt x 204.61159pt.
+
+Overfull \hbox (64.6912pt too wide) in paragraph at lines 299--300
+ [][] 
+ []
+
+[13
+
+ <./img/linux.jpeg> <./img/keras.png>]
+<img/model_bench/linear.png, id=130, 2140.99875pt x 1581.91pt>
+File: img/model_bench/linear.png Graphic file (type png)
+<use img/model_bench/linear.png>
+Package pdftex.def Info: img/model_bench/linear.png  used on input line 314.
+(pdftex.def)             Requested size: 227.62204pt x 168.16925pt.
+<img/model_bench/latent.png, id=131, 2168.1pt x 1632.0975pt>
+File: img/model_bench/latent.png Graphic file (type png)
+<use img/model_bench/latent.png>
+Package pdftex.def Info: img/model_bench/latent.png  used on input line 321.
+(pdftex.def)             Requested size: 227.62204pt x 171.33794pt.
+
+Overfull \hbox (33.31938pt too wide) in paragraph at lines 312--325
+[]$[]$ |  $[]$ 
+ []
+
+<img/model_bench/rnn.png, id=132, 2191.18625pt x 1608.0075pt>
+File: img/model_bench/rnn.png Graphic file (type png)
+<use img/model_bench/rnn.png>
+Package pdftex.def Info: img/model_bench/rnn.png  used on input line 330.
+(pdftex.def)             Requested size: 227.62204pt x 167.01782pt.
+<img/model_bench/categorical.png, id=133, 2225.31375pt x 1599.9775pt>
+File: img/model_bench/categorical.png Graphic file (type png)
+<use img/model_bench/categorical.png>
+Package pdftex.def Info: img/model_bench/categorical.png  used on input line 33
+7.
+(pdftex.def)             Requested size: 227.62204pt x 163.64476pt.
+
+Overfull \hbox (33.31938pt too wide) in paragraph at lines 328--341
+[]$[]$ |  $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+
+ []
+
+[14
+
+ <./img/model_bench/linear.png> <./img/model_bench/latent.png> <./img/model_ben
+ch/rnn.png> <./img/model_bench/categorical.png>]
+<img/PID.jpeg, id=141, 1284.8pt x 722.7pt>
+File: img/PID.jpeg Graphic file (type jpg)
+<use img/PID.jpeg>
+Package pdftex.def Info: img/PID.jpeg  used on input line 349.
+(pdftex.def)             Requested size: 385.44298pt x 216.81166pt.
+ [15
+
+ <./img/PID.jpeg>])
+\openout2 = `tex/conclusion.aux'.
+
+
+(./tex/conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+<img/girou_barbault.jpg, id=145, 2649.9pt x 1493.58pt>
+File: img/girou_barbault.jpg Graphic file (type jpg)
+<use img/girou_barbault.jpg>
+Package pdftex.def Info: img/girou_barbault.jpg  used on input line 15.
+(pdftex.def)             Requested size: 397.46785pt x 224.02733pt.
+[16
+
+
+
+ <./img/girou_barbault.jpg>]) (./PA.lof)
+\tf@lof=\write5
+\openout5 = `PA.lof'.
+
+ (./PA.lot)
+\tf@lot=\write6
+\openout6 = `PA.lot'.
+
+ [17
+
+
+
+]
+\openout2 = `tex/biblio.aux'.
+
+ (./tex/biblio.tex
+(./PA.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
+[]\OT1/cmr/m/n/10.95 Fei Che-ung.  Get-ting started with jet-son nano and don-k
+ey
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
+\OT1/cmr/m/n/10.95 car aka au-tonomous car.  $\OT1/cmtt/m/n/10.95 https : / / m
+edium . com / @feicheung2016 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
+\OT1/cmtt/m/n/10.95 getting-[]started-[]with-[]jetson-[]nano-[]and-[]autonomous
+-[]donkey-[]car-[]d4f25bbd1c83$\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
+[]\OT1/cmr/m/n/10.95 Jeremy Co-hen.  Deep re-in-force-ment learn-ing for self-d
+riving
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
+\OT1/cmr/m/n/10.95 cars | an in-tro.  $\OT1/cmtt/m/n/10.95 https : / / thinkaut
+onomous . medium . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
+\OT1/cmtt/m/n/10.95 deep-[]reinforcement-[]learning-[]for-[]self-[]driving-[]ca
+rs-[]an-[]intro-[]4c8c08e6d06b$\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--59
+[]\OT1/cmr/m/n/10.95 Roscoe (da-duce).  How i'd try to win the 36 hour self dri
+v-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--59
+\OT1/cmr/m/n/10.95 ing hackathon at aws rein-vent.  $\OT1/cmtt/m/n/10.95 https 
+: / / www . donkeycar . com / updates /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--59
+\OT1/cmtt/m/n/10.95 what-[]id-[]try-[]to-[]win-[]the-[]36-[]hour-[]self-[]drivi
+ng-[]hackathon-[]at-[]aws-[]reinvent$\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--66
+[]\OT1/cmr/m/n/10.95 DeepMind.  Al-phago.  $\OT1/cmtt/m/n/10.95 https : / / dee
+pmind . com / research / case-[]studies /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+\OT1/cmtt/m/n/10.95 dexlabanalytics . com / blog / machine-[]learning-[]algorit
+hms-[]in-[]self-[]driving-[]cars$\OT1/cmr/m/n/10.95 ,
+ []
+
+[18
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 112--115
+[]\OT1/cmr/m/n/10.95 RobocarStore.  donkeycar-images.  $\OT1/cmtt/m/n/10.95 htt
+ps : / / github . com / robocarstore /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
+[]\OT1/cmr/m/n/10.95 Sentdex.  In-tro-duc-tion - self-driving cars with carla
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
+\OT1/cmr/m/n/10.95 and python part 1.  $\OT1/cmtt/m/n/10.95 https : / / pythonp
+rogramming . net /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--134
+[]\OT1/cmr/m/n/10.95 Groupe Sigma.  D^^Sevelopper la prox-imite en-treprise /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--134
+\OT1/cmr/m/n/10.95 ^^Setudiants : Ia rac-ing.  $\OT1/cmtt/m/n/10.95 https : / /
+ www . sigma . fr / 2020 / 12 / 03 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--134
+\OT1/cmtt/m/n/10.95 favoriser-[]une-[]intimite-[]plus-[]grande-[]entre-[]lentre
+prise-[]et-[]les-[]etudiants/$\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 136--141
+[]\OT1/cmr/m/n/10.95 Rayan Slim Amer Sharaf Jad Slim Sar-mad Tan-veer.  The com
+-plete self-
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 136--141
+\OT1/cmr/m/n/10.95 driving car course - ap-plied deep learn-ing.  $\OT1/cmtt/m/
+n/10.95 https : / / www . udemy . com / course /
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 148--152
+[]\OT1/cmr/m/n/10.95 Unknown.  Ex-ceed rc truck ra-dio car 1/16 2.4ghz mag-net 
+ep elec-tric pow-ered
+ []
+
+)) [19]
+\openout2 = `tex/annexe.aux'.
+
+ (./tex/annexe.tex
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 4.
+ [20
+
+
+] [21]
+<img/lane_detect/lane_img.png, id=167, 1287.81125pt x 833.1125pt>
+File: img/lane_detect/lane_img.png Graphic file (type png)
+<use img/lane_detect/lane_img.png>
+Package pdftex.def Info: img/lane_detect/lane_img.png  used on input line 106.
+(pdftex.def)             Requested size: 170.71652pt x 110.43137pt.
+<img/lane_detect/canny_img.png, id=168, 1287.81125pt x 833.1125pt>
+File: img/lane_detect/canny_img.png Graphic file (type png)
+<use img/lane_detect/canny_img.png>
+Package pdftex.def Info: img/lane_detect/canny_img.png  used on input line 112.
+
+(pdftex.def)             Requested size: 170.71652pt x 110.43137pt.
+<img/lane_detect/cropped_img.png, id=169, 1287.81125pt x 833.1125pt>
+File: img/lane_detect/cropped_img.png Graphic file (type png)
+<use img/lane_detect/cropped_img.png>
+Package pdftex.def Info: img/lane_detect/cropped_img.png  used on input line 12
+0.
+(pdftex.def)             Requested size: 170.71652pt x 110.43137pt.
+<img/lane_detect/combo_img.png, id=170, 1287.81125pt x 833.1125pt>
+File: img/lane_detect/combo_img.png Graphic file (type png)
+<use img/lane_detect/combo_img.png>
+Package pdftex.def Info: img/lane_detect/combo_img.png  used on input line 126.
+
+(pdftex.def)             Requested size: 170.71652pt x 110.43137pt.
+
+[22
+
+ <./img/lane_detect/lane_img.png> <./img/lane_detect/canny_img.png> <./img/lane
+_detect/cropped_img.png> <./img/lane_detect/combo_img.png>]
+<pdf/PA_finance.pdf, id=179, 597.50829pt x 845.0471pt>
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf>
+Package pdftex.def Info: pdf/PA_finance.pdf  used on input line 189.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf>
+Package pdftex.def Info: pdf/PA_finance.pdf  used on input line 189.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<pdf/PA_finance.pdf, id=182, page=1, 597.50829pt x 845.0471pt>
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 1>
+Package pdftex.def Info: pdf/PA_finance.pdf , page1 used on input line 189.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 1>
+Package pdftex.def Info: pdf/PA_finance.pdf , page1 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [23
+
+]
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 1>
+Package pdftex.def Info: pdf/PA_finance.pdf , page1 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 1>
+Package pdftex.def Info: pdf/PA_finance.pdf , page1 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 1>
+Package pdftex.def Info: pdf/PA_finance.pdf , page1 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [24 <./pdf/PA_Finance.pdf>]
+<pdf/PA_finance.pdf, id=217, page=2, 597.50829pt x 845.0471pt>
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 2>
+Package pdftex.def Info: pdf/PA_finance.pdf , page2 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 2>
+Package pdftex.def Info: pdf/PA_finance.pdf , page2 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 2>
+Package pdftex.def Info: pdf/PA_finance.pdf , page2 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [25 <./pdf/PA_Finance.pdf>]
+<pdf/PA_finance.pdf, id=253, page=3, 597.50829pt x 845.0471pt>
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 3>
+Package pdftex.def Info: pdf/PA_finance.pdf , page3 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 3>
+Package pdftex.def Info: pdf/PA_finance.pdf , page3 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 3>
+Package pdftex.def Info: pdf/PA_finance.pdf , page3 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [26 <./pdf/PA_Finance.pdf>]
+<pdf/PA_finance.pdf, id=258, page=4, 597.50829pt x 845.0471pt>
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 4>
+Package pdftex.def Info: pdf/PA_finance.pdf , page4 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 4>
+Package pdftex.def Info: pdf/PA_finance.pdf , page4 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 4>
+Package pdftex.def Info: pdf/PA_finance.pdf , page4 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[27 <./pdf/PA_Finance.pdf>]
+<pdf/PA_finance.pdf, id=268, page=5, 597.50829pt x 845.0471pt>
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 5>
+Package pdftex.def Info: pdf/PA_finance.pdf , page5 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 5>
+Package pdftex.def Info: pdf/PA_finance.pdf , page5 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 5>
+Package pdftex.def Info: pdf/PA_finance.pdf , page5 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [28 <./pdf/PA_Finance.pdf>]
+<pdf/PA_finance.pdf, id=274, page=6, 597.50829pt x 845.0471pt>
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 6>
+Package pdftex.def Info: pdf/PA_finance.pdf , page6 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 6>
+Package pdftex.def Info: pdf/PA_finance.pdf , page6 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 6>
+Package pdftex.def Info: pdf/PA_finance.pdf , page6 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [29 <./pdf/PA_Finance.pdf>]
+<pdf/PA_finance.pdf, id=281, page=7, 597.50829pt x 845.0471pt>
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 7>
+Package pdftex.def Info: pdf/PA_finance.pdf , page7 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 7>
+Package pdftex.def Info: pdf/PA_finance.pdf , page7 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 7>
+Package pdftex.def Info: pdf/PA_finance.pdf , page7 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [30 <./pdf/PA_Finance.pdf>]
+<pdf/PA_finance.pdf, id=285, page=8, 597.50829pt x 845.0471pt>
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 8>
+Package pdftex.def Info: pdf/PA_finance.pdf , page8 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 8>
+Package pdftex.def Info: pdf/PA_finance.pdf , page8 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: pdf/PA_finance.pdf Graphic file (type pdf)
+<use pdf/PA_finance.pdf, page 8>
+Package pdftex.def Info: pdf/PA_finance.pdf , page8 used on input line 189.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [31 <./pdf/PA_Finance.pdf>]) (./PA.aux
+(./tex/page_garde.aux) (./tex/thanks.aux) (./tex/introduction.aux)
+(./tex/specifications.aux) (./tex/project_management.aux)
+(./tex/tech_overview.aux) (./tex/conclusion.aux) (./tex/biblio.aux)
+(./tex/annexe.aux)) ) 
+Here is how much of TeX's memory you used:
+ 19775 strings out of 480906
+ 363529 string characters out of 5910771
+ 1094778 words of memory out of 5000000
+ 34843 multiletter control sequences out of 15000+600000
+ 547615 words of font info for 78 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,18n,100p,707b,2311s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.en
+c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/eurosym/feybr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/eurosym/feymr10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+rm1095.pfb>
+Output written on PA.pdf (34 pages, 16392312 bytes).
+PDF statistics:
+ 344 PDF objects out of 1000 (max. 8388607)
+ 206 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 299 words of extra memory for PDF output out of 10000 (max. 10000000)
+
