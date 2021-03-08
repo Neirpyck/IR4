@@ -1,0 +1,13 @@
+\babel@toc {french}{}
+\contentsline {section}{\numberline {1}Introduction}{2}%
+\contentsline {section}{\numberline {2}Data Mining Tasks}{2}%
+\contentsline {section}{\numberline {3}Machine Learning}{3}%
+\contentsline {subsection}{\numberline {3.1}Predictive Modeling: Classification}{3}%
+\contentsline {subsection}{\numberline {3.2}Predictive Modeling: Regression}{3}%
+\contentsline {subsection}{\numberline {3.3}Clustering}{4}%
+\contentsline {section}{\numberline {4}AI-900 Azure AI Fundamentals}{5}%
+\contentsline {section}{\numberline {5}Machine Learning}{5}%
+\contentsline {subsection}{\numberline {5.1}Evaluating your model}{5}%
+\contentsline {section}{\numberline {6}Computer Vision}{6}%
+\contentsline {section}{\numberline {7}NLP (Natural Language Processing)}{6}%
+\contentsline {section}{\numberline {8}Conversation AI (BOT)}{6}%
