@@ -1,0 +1,48 @@
+\documentclass[12pt]{letter}
+
+\usepackage[latin1]{inputenc}
+\usepackage[francais]{babel}
+\usepackage[OT1]{fontenc}
+\usepackage{mltex}
+\usepackage{lipsum}
+\institut{identite}
+
+\begin{document}
+
+
+%-----------------------------------------------%
+% Le blabla pas intéressant                     %
+%-----------------------------------------------%
+
+\begin{letter}{Mme/Mr Prénom \textsc{Nom} \\
+							Fonction\\
+							adresse\\
+							du\\
+							destinataire
+							}
+\date{date envoi}                       % \nodate pour pas de date.
+%\lieu{lieu envoi}                       % \nolieu pour pas de lieu.
+
+
+
+%\conc{Objet de la lettre}
+\opening{Madame,}
+
+%-----------------------------------------------%
+% Le corps de la lettre de motivation           %
+% à vous de jouer !                             %
+%-----------------------------------------------%
+%-% À remplacer par votre lettre de motivation
+\lipsum[1]
+
+%-----------------------------------------------%
+% Le blabla pas intéressant                     %
+%-----------------------------------------------%
+\closing{Formule de politesse,}
+\cc{Listes des autres destinataires}
+\encl{Description des pièces jointes}
+\ps{PS :~}{un post-scriptum}
+
+\end{letter}
+
+\end{document}

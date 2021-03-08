@@ -1,0 +1,202 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.11.17)  14 DEC 2020 15:47
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"lettre motivation_base.tex"
+(./lettre motivation_base.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-07-17>
+(/usr/share/texlive/texmf-dist/tex/latex/base/letter.cls
+Document Class: letter 2014/09/29 v1.2z Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\longindentation=\dimen134
+\indentedwidth=\dimen135
+\labelcount=\count168
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/07/13 3.47 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/07/13 3.47 Babel common definitions
+\babel@savecnt=\count169
+\U@D=\dimen136
+\l@babelnohyphens=\language86
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count170
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-french/francais.ldf
+Language: francais 2020/07/02 v3.5j French support from the babel system
+
+
+Package francais.ldf Warning: Option `francais' for Babel is *deprecated*,
+(francais.ldf)                it might be removed sooner or later. Please
+(francais.ldf)                use `french' instead; reported on input line 31.
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2020/07/02 v3.5j French support from the babel system
+Package babel Info: \l@acadian = using hyphenrules for french
+(babel)             (\language83) on input line 91.
+Package babel Info: \l@canadien = using hyphenrules for french
+(babel)             (\language83) on input line 92.
+\FB@nonchar=\count171
+Package babel Info: Making : an active character on input line 428.
+Package babel Info: Making ; an active character on input line 429.
+Package babel Info: Making ! an active character on input line 430.
+Package babel Info: Making ? an active character on input line 431.
+\FBguill@level=\count172
+\FBold@everypar=\toks17
+\FB@Mht=\dimen137
+\mc@charclass=\count173
+\mc@charfam=\count174
+\mc@charslot=\count175
+\std@mcc=\count176
+\dec@mcc=\count177
+\c@FBcaption@count=\count178
+\listindentFB=\dimen138
+\descindentFB=\dimen139
+\labelindentFB=\dimen140
+\labelwidthFB=\dimen141
+\leftmarginFB=\dimen142
+\parindentFFN=\dimen143
+\FBfnindent=\dimen144
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mltex/mltex.sty
+Package: mltex 1999/08/03 v0.9c MLTeX/LaTeX package (br)
+
+(/usr/share/texlive/texmf-dist/tex/latex/mltex/lo1enc.def
+File: lo1enc.def 1999/03/09 v0.9h MLTeX/LaTeX fontenc definition: mLtex's Ot1 (
+br)
+
+(/usr/share/texlive/texmf-dist/tex/latex/mltex/mlltxchg.def
+File: mlltxchg.def 1999/03/08 v0.9c MLTeX/LaTeX changes of LaTeX Kernel (NFSS) 
+(br)
+MLTeX Support Info: Have to change NFSS kernel macros on input line 38.
+)
+Now handling font encoding LO1 ...
+... no UTF-8 mapping file for font encoding LO1
+LaTeX Font Info:    Redeclaring font def. encoding alias for LO1 on input line 
+70.
+
+
+Package mltex Warning: Encoding `LO1' assumes the use of MLTeX,
+(mltex)                but this TeX does not have the MLTeX extensions.
+(mltex)                I will proceed as if `LO1' are equal to `OT1'.
+
+)
+Package mltex Info: Redefining \fontencoding ! on input line 61.
+) (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-07-17 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count179
+\l__pdf_internal_box=\box45
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
+\l__xparse_current_arg_int=\count180
+\g__xparse_grabber_int=\count181
+\l__xparse_m_args_int=\count182
+\l__xparse_v_nesting_int=\count183
+))
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+! Undefined control sequence.
+<recently read> \institut 
+                          
+l.8 \institut
+             {identite}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \institut{i
+               dentite}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(./lettre motivation_base.aux)
+\openout1 = `"lettre motivation_base.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for LO1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Info: Redefining \degres on input line 10.
+LaTeX Info: Redefining \dots on input line 10.
+LaTeX Info: Redefining \up on input line 10.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 41.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 41.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 41.
+ [1] (./lettre motivation_base.aux) ) 
+Here is how much of TeX's memory you used:
+ 2712 strings out of 480906
+ 47461 string characters out of 5910771
+ 556425 words of memory out of 5000000
+ 18320 multiletter control sequences out of 15000+600000
+ 538125 words of font info for 39 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,6n,38p,238b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb>
+Output written on "lettre motivation_base.pdf" (2 pages, 24308 bytes).
+PDF statistics:
+ 19 PDF objects out of 1000 (max. 8388607)
+ 12 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
