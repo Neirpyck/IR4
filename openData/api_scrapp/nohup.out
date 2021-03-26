@@ -1,0 +1,168 @@
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+Traceback (most recent call last):
+  File "/home/neirpyc/anaconda3/lib/python3.8/urllib/request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/home/neirpyc/anaconda3/lib/python3.8/http/client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/home/neirpyc/anaconda3/lib/python3.8/http/client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/home/neirpyc/anaconda3/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/neirpyc/anaconda3/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/home/neirpyc/anaconda3/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/home/neirpyc/anaconda3/lib/python3.8/http/client.py", line 1417, in connect
+    super().connect()
+  File "/home/neirpyc/anaconda3/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/home/neirpyc/anaconda3/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/home/neirpyc/anaconda3/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scrapper.py", line 72, in <module>
+    schedule.run_pending()
+  File "/home/neirpyc/anaconda3/lib/python3.8/site-packages/schedule/__init__.py", line 592, in run_pending
+    default_scheduler.run_pending()
+  File "/home/neirpyc/anaconda3/lib/python3.8/site-packages/schedule/__init__.py", line 94, in run_pending
+    self._run_job(job)
+  File "/home/neirpyc/anaconda3/lib/python3.8/site-packages/schedule/__init__.py", line 147, in _run_job
+    ret = job.run()
+  File "/home/neirpyc/anaconda3/lib/python3.8/site-packages/schedule/__init__.py", line 491, in run
+    ret = self.job_func()
+  File "scrapper.py", line 58, in job
+    list_restaurants, list_places, list_services = get_all_from_page_n(i)
+  File "scrapper.py", line 37, in get_all_from_page_n
+    request_text = request.urlopen(base_url+str(n)).read()
+  File "/home/neirpyc/anaconda3/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/home/neirpyc/anaconda3/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/home/neirpyc/anaconda3/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/home/neirpyc/anaconda3/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/home/neirpyc/anaconda3/lib/python3.8/urllib/request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/home/neirpyc/anaconda3/lib/python3.8/urllib/request.py", line 1353, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+Traceback (most recent call last):
+  File "/home/neirpyc/anaconda3/lib/python3.8/urllib/request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/home/neirpyc/anaconda3/lib/python3.8/http/client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/home/neirpyc/anaconda3/lib/python3.8/http/client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/home/neirpyc/anaconda3/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/neirpyc/anaconda3/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/home/neirpyc/anaconda3/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/home/neirpyc/anaconda3/lib/python3.8/http/client.py", line 1417, in connect
+    super().connect()
+  File "/home/neirpyc/anaconda3/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/home/neirpyc/anaconda3/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/home/neirpyc/anaconda3/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scrapper.py", line 72, in <module>
+    schedule.run_pending()
+  File "/home/neirpyc/anaconda3/lib/python3.8/site-packages/schedule/__init__.py", line 592, in run_pending
+    default_scheduler.run_pending()
+  File "/home/neirpyc/anaconda3/lib/python3.8/site-packages/schedule/__init__.py", line 94, in run_pending
+    self._run_job(job)
+  File "/home/neirpyc/anaconda3/lib/python3.8/site-packages/schedule/__init__.py", line 147, in _run_job
+    ret = job.run()
+  File "/home/neirpyc/anaconda3/lib/python3.8/site-packages/schedule/__init__.py", line 491, in run
+    ret = self.job_func()
+  File "scrapper.py", line 58, in job
+    list_restaurants, list_places, list_services = get_all_from_page_n(i)
+  File "scrapper.py", line 37, in get_all_from_page_n
+    request_text = request.urlopen(base_url+str(n)).read()
+  File "/home/neirpyc/anaconda3/lib/python3.8/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/home/neirpyc/anaconda3/lib/python3.8/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/home/neirpyc/anaconda3/lib/python3.8/urllib/request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/home/neirpyc/anaconda3/lib/python3.8/urllib/request.py", line 502, in _call_chain
+    result = func(*args)
+  File "/home/neirpyc/anaconda3/lib/python3.8/urllib/request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/home/neirpyc/anaconda3/lib/python3.8/urllib/request.py", line 1353, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>

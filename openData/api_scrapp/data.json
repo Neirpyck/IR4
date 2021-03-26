@@ -1,0 +1,865 @@
+{
+    "A table chez Mili": {
+        "name": "A table chez Mili",
+        "address": "Savenni\u00e8res",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Acquaviva": {
+        "name": "Acquaviva",
+        "address": "Longuen\u00e9e-en-Anjou",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Affam\u00e9s": {
+        "name": "Affam\u00e9s",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "American Snack Coffee": {
+        "name": "American Snack Coffee",
+        "address": "Les Ponts-de-C\u00e9",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Au P'tit Chez Soi": {
+        "name": "Au P'tit Chez Soi",
+        "address": "Beaucouz\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Au P'tit Resto": {
+        "name": "Au P'tit Resto",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Au Pays Mandingue": {
+        "name": "Au Pays Mandingue",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter",
+            "Livraison \u00e0 domicile"
+        ]
+    },
+    "Auberge Chanteclair": {
+        "name": "Auberge Chanteclair",
+        "address": "Bouchemaine",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Auberge de la Lieue": {
+        "name": "Auberge de la Lieue",
+        "address": "Verri\u00e8res-en-Anjou",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Auberge de la Roche": {
+        "name": "Auberge de la Roche",
+        "address": "Saint-Jean-de-Lini\u00e8res",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Auberge du Pont de Sorges": {
+        "name": "Auberge du Pont de Sorges",
+        "address": "Les Ponts-de-C\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Aux Deux 5": {
+        "name": "Aux Deux 5",
+        "address": "Tr\u00e9laz\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Aux Jeunes Pousses": {
+        "name": "Aux Jeunes Pousses",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Baracrep": {
+        "name": "Baracrep",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Basilic & Co": {
+        "name": "Basilic & Co",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Bistrot de l'Avenue": {
+        "name": "Bistrot de l'Avenue",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Bistrot des And\u00e9caves": {
+        "name": "Bistrot des And\u00e9caves",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Brandolini": {
+        "name": "Brandolini",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Brasserie Le Saint Benoit": {
+        "name": "Brasserie Le Saint Benoit",
+        "address": "Beaucouz\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Brasserie Le Win's": {
+        "name": "Brasserie Le Win's",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Brasserie de l'Acad\u00e9mie": {
+        "name": "Brasserie de l'Acad\u00e9mie",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Brasserie de la Gare": {
+        "name": "Brasserie de la Gare",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Capvers": {
+        "name": "Capvers",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Casa Thomas": {
+        "name": "Casa Thomas",
+        "address": "M\u00fbrs-Erign\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Chez Minh - Bressigny": {
+        "name": "Chez Minh - Bressigny",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Chez Minh - Toussaint": {
+        "name": "Chez Minh - Toussaint",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Chez R\u00e9mi": {
+        "name": "Chez R\u00e9mi",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Chez lux by Jonathan Cochain": {
+        "name": "Chez lux by Jonathan Cochain",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "C\u00f4t\u00e9 Jardin": {
+        "name": "C\u00f4t\u00e9 Jardin",
+        "address": "Les Ponts-de-C\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Dazuma": {
+        "name": "Dazuma",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Dublin's Irish Pub": {
+        "name": "Dublin's Irish Pub",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter",
+            "Livraison \u00e0 domicile"
+        ]
+    },
+    "Ernest Inn": {
+        "name": "Ernest Inn",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter",
+            "Livraison \u00e0 domicile"
+        ]
+    },
+    "Et le Temps s'est Art & Th\u00e9": {
+        "name": "Et le Temps s'est Art & Th\u00e9",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Frikadel": {
+        "name": "Frikadel",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Henriette": {
+        "name": "Henriette",
+        "address": "Beaucouz\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "India": {
+        "name": "India",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Kazumi": {
+        "name": "Kazumi",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Ker Juliette": {
+        "name": "Ker Juliette",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "L'Ange Vin": {
+        "name": "L'Ange Vin",
+        "address": "Beaucouz\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "L'Ardoise": {
+        "name": "L'Ardoise",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "L'Arrosoir Bistrot-Brasserie": {
+        "name": "L'Arrosoir Bistrot-Brasserie",
+        "address": "Les Ponts-de-C\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "L'Arrosoir du Pasteur": {
+        "name": "L'Arrosoir du Pasteur",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "L'Astuce": {
+        "name": "L'Astuce",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "L'Authentic": {
+        "name": "L'Authentic",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "L'Eau \u00e0 la Bouche": {
+        "name": "L'Eau \u00e0 la Bouche",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "L'Orchid\u00e9e": {
+        "name": "L'Orchid\u00e9e",
+        "address": "Sainte-Gemmes-sur-Loire",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "La Boucherie - Saint-Barth\u00e9l\u00e9my-d'Anjou": {
+        "name": "La Boucherie - Saint-Barth\u00e9l\u00e9my-d'Anjou",
+        "address": "Saint-Barth\u00e9lemy-d'Anjou",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "La Cantine de C\u00e9": {
+        "name": "La Cantine de C\u00e9",
+        "address": "Les Ponts-de-C\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "La Coquetterie": {
+        "name": "La Coquetterie",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "La C\u00f4te de B\u0153uf": {
+        "name": "La C\u00f4te de B\u0153uf",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "La Gogane": {
+        "name": "La Gogane",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter",
+            "Livraison \u00e0 domicile"
+        ]
+    },
+    "La Passerelle": {
+        "name": "La Passerelle",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "La Promenade": {
+        "name": "La Promenade",
+        "address": "Loire-Authion",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "La Radio": {
+        "name": "La Radio",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "La Rue Sauvage": {
+        "name": "La Rue Sauvage",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "La Table Les 3 Lieux": {
+        "name": "La Table Les 3 Lieux",
+        "address": "Les Ponts-de-C\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "La Villa Angevine": {
+        "name": "La Villa Angevine",
+        "address": "Verri\u00e8res-en-Anjou",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Lait Thym Sel": {
+        "name": "Lait Thym Sel",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le 15 Gourmand": {
+        "name": "Le 15 Gourmand",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Bistrot des Ducs": {
+        "name": "Le Bistrot des Ducs",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Bouchon du Val de Loire": {
+        "name": "Le Bouchon du Val de Loire",
+        "address": "Saint-Barth\u00e9lemy-d'Anjou",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Cavier": {
+        "name": "Le Cavier",
+        "address": "Avrill\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Centre": {
+        "name": "Le Centre",
+        "address": "Verri\u00e8res-en-Anjou",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Chenin": {
+        "name": "Le Chenin",
+        "address": "Savenni\u00e8res",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Dos de la Cuill\u00e8re": {
+        "name": "Le Dos de la Cuill\u00e8re",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Favre d'Anne Loft Culinaire": {
+        "name": "Le Favre d'Anne Loft Culinaire",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Kephren": {
+        "name": "Le Kephren",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Kiviv": {
+        "name": "Le Kiviv",
+        "address": "Briollay",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Midi Libre": {
+        "name": "Le Midi Libre",
+        "address": "Tr\u00e9laz\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Napoli": {
+        "name": "Le Napoli",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Paddock": {
+        "name": "Le Paddock",
+        "address": "Cantenay-\u00c9pinard",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Petit Rungis": {
+        "name": "Le Petit Rungis",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Relais": {
+        "name": "Le Relais",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Relais Saint-Barth": {
+        "name": "Le Relais Saint-Barth",
+        "address": "Saint-Barth\u00e9lemy-d'Anjou",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Relais de l'Arceau": {
+        "name": "Le Relais de l'Arceau",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le San Marco": {
+        "name": "Le San Marco",
+        "address": "Les Ponts-de-C\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Seven": {
+        "name": "Le Seven",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Strapontin": {
+        "name": "Le Strapontin",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Tablier": {
+        "name": "Le Tablier",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le Vestiaire": {
+        "name": "Le Vestiaire",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter",
+            "Livraison \u00e0 domicile"
+        ]
+    },
+    "Le Wagon Restaurant": {
+        "name": "Le Wagon Restaurant",
+        "address": "Saint-Barth\u00e9lemy-d'Anjou",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le bistrot de Louise": {
+        "name": "Le bistrot de Louise",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le panier \u00e0 salade": {
+        "name": "Le panier \u00e0 salade",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Le resto du Jardin": {
+        "name": "Le resto du Jardin",
+        "address": "Sainte-Gemmes-sur-Loire",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Les Aliz\u00e9s": {
+        "name": "Les Aliz\u00e9s",
+        "address": "M\u00fbrs-Erign\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Les Glycines Restaurant": {
+        "name": "Les Glycines Restaurant",
+        "address": "\u00c9couflant",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Les casse-cro\u00fbte de Suzy": {
+        "name": "Les casse-cro\u00fbte de Suzy",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Les douceurs du Plessis": {
+        "name": "Les douceurs du Plessis",
+        "address": "Le Plessis-Grammoire",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "L\u2019Angevigne": {
+        "name": "L\u2019Angevigne",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "M'angers": {
+        "name": "M'angers",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Ma Campagne": {
+        "name": "Ma Campagne",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Maison Poulet Frites": {
+        "name": "Maison Poulet Frites",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter",
+            "Livraison \u00e0 domicile"
+        ]
+    },
+    "Mamie Henriette": {
+        "name": "Mamie Henriette",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Mauvaise Graine": {
+        "name": "Mauvaise Graine",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "O'Feel du grill": {
+        "name": "O'Feel du grill",
+        "address": "Les Ponts-de-C\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "O'Plaisir": {
+        "name": "O'Plaisir",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Pastels, Wax et Cie": {
+        "name": "Pastels, Wax et Cie",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Patach\u00e9e": {
+        "name": "Patach\u00e9e",
+        "address": "Avrill\u00e9",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Pause Pizza": {
+        "name": "Pause Pizza",
+        "address": "Saint-Barth\u00e9lemy-d'Anjou",
+        "services": [
+            "Vente \u00e0 emporter",
+            "Livraison \u00e0 domicile"
+        ]
+    },
+    "Popotons & Papo'th\u00e9": {
+        "name": "Popotons & Papo'th\u00e9",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Potiron et  Ciboulette": {
+        "name": "Potiron et  Ciboulette",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Provence Caff\u00e9": {
+        "name": "Provence Caff\u00e9",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Restaurant Daddy": {
+        "name": "Restaurant Daddy",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Restaurant En Bouche": {
+        "name": "Restaurant En Bouche",
+        "address": "Loire-Authion",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Restaurant Le Bosquet": {
+        "name": "Restaurant Le Bosquet",
+        "address": "Les Ponts-de-C\u00e9",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Resto-Troc": {
+        "name": "Resto-Troc",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Santosha": {
+        "name": "Santosha",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Sawasdee Bangkok": {
+        "name": "Sawasdee Bangkok",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Sens": {
+        "name": "Sens",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Signorizza": {
+        "name": "Signorizza",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Tha\u00ef L'Inde": {
+        "name": "Tha\u00ef L'Inde",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Tonton Foch": {
+        "name": "Tonton Foch",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Tr\u00e9sors du Liban": {
+        "name": "Tr\u00e9sors du Liban",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Un Brin Folk": {
+        "name": "Un Brin Folk",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Un chef en salle": {
+        "name": "Un chef en salle",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Une Fille & des Quilles": {
+        "name": "Une Fille & des Quilles",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "VF Version Fran\u00e7aise": {
+        "name": "VF Version Fran\u00e7aise",
+        "address": "Angers",
+        "services": [
+            "Livraison \u00e0 domicile",
+            "Vente \u00e0 emporter"
+        ]
+    },
+    "Yakitori": {
+        "name": "Yakitori",
+        "address": "Angers",
+        "services": [
+            "Vente \u00e0 emporter"
+        ]
+    }
+}
