@@ -1,11 +1,9 @@
 import json
+import re
+import time
 from urllib import request
 
 import bs4
-import time
-import re
-
-from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
@@ -85,7 +83,7 @@ def get_note(page):
     try:
         note = page.find("span", {"class": "r2Cf69qf"}).get_text()
     except:
-        note = ''
+        note = ""
     return note[:-1]
 
 
@@ -99,7 +97,7 @@ def get_cuisines(page):
         ).getText()
         cuisines = cuisines.split(",").trim()
     except:
-        cuisines = ['']
+        cuisines = [""]
     return cuisines
 
 
@@ -127,12 +125,35 @@ def get_3_reviews(page):
 
 
 def get_tripadvisor_details(BASE_URL):
+    """
+    Modify the restaurant JSON array to make it of type:
+    [
+        {
+        "name": "Name of Restaurant",
+        "tripAdvisor": "url of type : /Restaurant_Review-g187197-d19134611-Reviews-Reste_Au_51-Angers_Maine_et_Loire_Pays_de_la_Loire.html",
+        "cuisine": [
+            "type of cuisine 1",
+            "type of cuisine 2"
+            ],
+        "note": "5,0",
+        "3reviews": [
+            "review 1",
+            "review 2",
+            "review 3",
+            ],
+        "price": [
+            "lowest price",
+            "highest price"
+            ]
+        },
+    ]
+    """
     with open("tripadvisor.json", "r") as f:
         data = json.load(f)
 
     for i in range(len(data)):
         print(i)
-        if i!=0 and not i%10:
+        if i != 0 and not i % 10:
             with open("tripadvisor.json", "w") as f:
                 json.dump(data, f, ensure_ascii=False)
 
@@ -163,18 +184,9 @@ if __name__ == "__main__":
 
     # Get all restaurant in angers
     # parse_restaurants_url(SCRAP_URL, CITY_DEFAULT_URL)
-    #get_tripadvisor_details(BASE_URL)
+    # get_tripadvisor_details(BASE_URL)
 
     # Test
-    driver.get("https://www.tripadvisor.fr/Restaurant_Review-g187197-d19134611-Reviews-Reste_Au_51-Angers_Maine_et_Loire_Pays_de_la_Loire.html")
-    if len(driver.find_elements_by_xpath("//span[@class='taLnk ulBlueLinks'][contains(.,'More')]"))>0:
-        driver.find_elements_by_xpath("//span[@class='taLnk ulBlueLinks'][contains(.,'More')]")[0].click()
-
-    time.sleep(3)
-    soup=BeautifulSoup(driver.page_source,'html.parser')
-    driver.quit()
-    items=[item.text for item in soup.select("p.partial_entry")]
-    print(items)
 
 
 # http://www.tripadvisor.fr/Restaurant_Review-g187197-o/

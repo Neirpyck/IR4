@@ -113,12 +113,12 @@ def get_covid(page):
         return ""
 
 
-def get_address(page):
-    latitude = page.find("meta", {"itemprop": "latitude"})["content"]
-    longitude = page.find("meta", {"itemprop": "longitude"})["content"]
-    streetAddress = page.find("div", {"class": "address1"}).getText()
-    postalCode = page.find("span", {"itemprop": "postalCode"}).getText()
-    return latitude, longitude, streetAddress, postalCode
+# def get_address(page):
+#     latitude = page.find("meta", {"itemprop": "latitude"})["content"]
+#     longitude = page.find("meta", {"itemprop": "longitude"})["content"]
+#     streetAddress = page.find("div", {"class": "address1"}).getText()
+#     postalCode = page.find("span", {"itemprop": "postalCode"}).getText()
+#     return latitude, longitude, streetAddress, postalCode
 
 
 def get_detail(restaurant):
