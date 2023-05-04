@@ -1,0 +1,98 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%BASE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{article}%défini caractéristique du document
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%MISE EN PAGE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{lipsum} %pack pour faux text%
+\usepackage{ulem}%pour pouvoir souligner
+\usepackage{layout}%ajoute les page de description de mise en forme: marges etc
+\usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}%permet de definir les caracteristique des marges
+\usepackage{enumerate}%permet de faire certaine liste comme les articles de lois
+\usepackage{paralist}%permet de faire une liste num�rot�e dans un text
+\usepackage{graphicx}%permet d'int�grer des figure et graphics
+\usepackage{wrapfig}%permet de mettre une photo dans un text
+\usepackage{multicol}%permet d'�crire en colonne
+\usepackage{subfigure}%permet de mettre deux photos avec une seule l�gende
+\usepackage{multirow}%pour faire plusieurs ligne en une dans un tableau
+%\usepackage{slashbox}%permet de couper en diagonal la premi�re case en haut �  gauche d'un tableau
+\usepackage{array}%permet de rajouter des caract�ristiques pour les colonnes d'un tableau
+%\usepackage{todonotes}%permet de rajouter des notesii
+\usepackage{fancyhdr}%pour entete bas de page et numerotation de page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%MATHS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath}%packs pour le mod maths
+\usepackage{amssymb}%packs pour le mod maths
+\usepackage{amsfonts}%packs pour le mod maths
+%\DecimalMathComma%pour pr�ciser que d�cimal sont s�par�e par virgule
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%AUTRES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{url}%permet d'insérer des liens
+\setlength{\parindent}{0pt}%retire l'indentation
+\usepackage{eurosym}
+\usepackage{pythonhighlight}
+\usepackage{import}
+\usepackage{float} % here for H placement parameter
+\usepackage[toc,page]{appendix}
+\usepackage{pdfpages}
+\usepackage{todonotes}
+\usepackage{cleveref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%ent�te et pied de page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy} %: Num�rotation des pages.
+\lhead{2020-2021} %ent�te et bas de page / haut gauche
+\chead{} %haut centre
+\rhead{\textsc{Panorama Performance}} %haut droite
+\lfoot{Activ'ESAIP} %bas gauche
+\cfoot{C.~\textsc{Barbault} - R.~\textsc{Girou} - V.~\textsc{Carrillo}} %bas centre
+\rfoot{\thepage} %bas droite
+%\leftmark: affiche le num et le nom de la section en cours
+%\thepage : donne le num de la page
+\renewcommand{\headrulewidth}{0.4pt} %: Trace un trait de s�paration de largeur 0,4 point.
+%Mettre 0pt pour supprimer le trait.
+\renewcommand{\footrulewidth}{0.4pt} %: Trace un trait de s�paration de largeur 0,4 point.
+%Mettre 0pt pour supprimer le trait.
+
+%\includeonly{tex/biblio}
+\begin{document}
+\include{tex/page_garde}
+
+\pagenumbering{empty}
+\tableofcontents
+%\include{tex/thanks}
+\include{tex/abreviations}
+
+\pagenumbering{arabic}
+%\include{tex/introduction}
+\include{tex/contexte}
+\setcounter{section}{1}
+\include{tex/mission_methodologie}
+\include{tex/mission_technologies}
+\include{tex/mission_project_management}
+\include{tex/mission_flow}
+\include{tex/partie_financiere}
+\include{tex/mission_resultats}
+\include{tex/conclusion}
+\include{tex/bilan_perso}
+
+\clearpage
+\section*{Liste des figures}
+\addcontentsline{toc}{section}{Liste des figures}
+\listoffigures
+
+\clearpage
+\section*{Bibliographie}
+\addcontentsline{toc}{section}{Bibliographie}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{references}
+
+\include{tex/annexe}
+\include{tex/lang_abstract}
+\end{document}

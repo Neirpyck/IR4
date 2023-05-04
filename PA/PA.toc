@@ -1,25 +1,25 @@
 \babel@toc {english}{}
-\contentsline {section}{\numberline {1}Introduction}{1}%
-\contentsline {section}{\numberline {2}Specifications}{2}%
-\contentsline {subsection}{\numberline {2.1}Technical Specifications}{2}%
-\contentsline {subsection}{\numberline {2.2}Start and Finish}{2}%
-\contentsline {subsection}{\numberline {2.3}Circuit}{3}%
-\contentsline {section}{\numberline {3}Project Management}{4}%
-\contentsline {subsection}{\numberline {3.1}Planning}{4}%
-\contentsline {subsection}{\numberline {3.2}Meetings}{4}%
-\contentsline {subsection}{\numberline {3.3}Division of labor}{5}%
-\contentsline {section}{\numberline {4}Technical overview}{6}%
-\contentsline {subsection}{\numberline {4.1}DonkeySimulator}{6}%
-\contentsline {subsection}{\numberline {4.2}Dataset}{7}%
-\contentsline {subsection}{\numberline {4.3}Our model choice}{7}%
-\contentsline {subsection}{\numberline {4.4}Lane Detection algorithm}{9}%
-\contentsline {subsection}{\numberline {4.5}OpenAI Gym}{11}%
-\contentsline {subsection}{\numberline {4.6}Benchmarks}{14}%
-\contentsline {section}{\numberline {5}Conclusion}{16}%
-\contentsline {section}{\numberline {6}List of Figure and Tables}{17}%
-\contentsline {section}{\numberline {7}Bibliography}{18}%
-\contentsline {section}{Appendices}{20}%
-\contentsline {subsection}{\numberline {.1}Code for the Lane Detection algorithm}{20}%
-\contentsline {subsection}{\numberline {.2}Image at each step in the lane detect algorithm}{22}%
-\contentsline {subsection}{\numberline {.3}TCP Client in Python}{23}%
-\contentsline {subsection}{\numberline {.4}Financial Management Report}{23}%
+\contentsline {section}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {2}Specifications}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Technical Specifications}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Start and Finish}{2}{}%
+\contentsline {subsection}{\numberline {2.3}Circuit}{3}{}%
+\contentsline {section}{\numberline {3}Project Management}{4}{}%
+\contentsline {subsection}{\numberline {3.1}Planning}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Meetings}{4}{}%
+\contentsline {subsection}{\numberline {3.3}Division of labor}{5}{}%
+\contentsline {section}{\numberline {4}Technical overview}{6}{}%
+\contentsline {subsection}{\numberline {4.1}DonkeySimulator}{6}{}%
+\contentsline {subsection}{\numberline {4.2}Dataset}{7}{}%
+\contentsline {subsection}{\numberline {4.3}Our model choice}{7}{}%
+\contentsline {subsection}{\numberline {4.4}Lane Detection algorithm}{9}{}%
+\contentsline {subsection}{\numberline {4.5}OpenAI Gym}{11}{}%
+\contentsline {subsection}{\numberline {4.6}Benchmarks}{14}{}%
+\contentsline {section}{\numberline {5}Conclusion}{16}{}%
+\contentsline {section}{\numberline {6}List of Figure and Tables}{17}{}%
+\contentsline {section}{\numberline {7}Bibliography}{18}{}%
+\contentsline {section}{Appendices}{19}{}%
+\contentsline {subsection}{\numberline {.1}Code for the Lane Detection algorithm}{19}{}%
+\contentsline {subsection}{\numberline {.2}Image at each step in the lane detect algorithm}{21}{}%
+\contentsline {subsection}{\numberline {.3}TCP Client in Python}{22}{}%
+\contentsline {subsection}{\numberline {.4}Financial Management Report}{22}{}%

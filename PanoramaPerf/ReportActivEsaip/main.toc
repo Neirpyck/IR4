@@ -1,0 +1,36 @@
+\babel@toc {english}{}
+\contentsline {section}{Abréviations}{\c@page }{}%
+\contentsline {section}{\numberline {1}Contexte}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Activ'ESAIP}{1}{}%
+\contentsline {subsection}{\numberline {1.2}Panorama Performance}{1}{}%
+\contentsline {subsection}{\numberline {1.3}La performance par le séquençage}{2}{}%
+\contentsline {section}{\numberline {2}Mission}{6}{}%
+\contentsline {subsection}{\numberline {2.1}Choix des technologies}{6}{}%
+\contentsline {subsubsection}{Flutter}{6}{}%
+\contentsline {subsubsection}{Firebase}{7}{}%
+\contentsline {subsection}{\numberline {2.2}Gestion de projet}{10}{}%
+\contentsline {subsubsection}{Méthode Agile}{10}{}%
+\contentsline {subsubsection}{Le client}{10}{}%
+\contentsline {subsubsection}{Le Product Owner}{10}{}%
+\contentsline {subsubsection}{Le Scrum Master}{11}{}%
+\contentsline {subsubsection}{Déroulement d'un sprint}{11}{}%
+\contentsline {subsubsection}{Outils de gestion de projet}{12}{}%
+\contentsline {subsubsection}{Pair Programming}{14}{}%
+\contentsline {subsubsection}{Difficultés rencontrées et points d'améliorations}{15}{}%
+\contentsline {subsection}{\numberline {2.3}Déroulement de la mission}{17}{}%
+\contentsline {subsubsection}{Recherche Documentaire}{17}{}%
+\contentsline {subsubsection}{Développement de la POC}{17}{}%
+\contentsline {subsubsection}{Rédaction du rapport de faisabilité}{21}{}%
+\contentsline {section}{\numberline {3}Partie Financière}{22}{}%
+\contentsline {subsection}{\numberline {3.1}Coût de l'Activ'ESAIP pour l'entreprise}{22}{}%
+\contentsline {subsection}{\numberline {3.2}Estimation des coûts réels de la mission}{22}{}%
+\contentsline {section}{\numberline {4}Résultats et livrables entreprise}{25}{}%
+\contentsline {section}{\numberline {5}Conclusion}{26}{}%
+\contentsline {section}{\numberline {6}Bilans personnels}{27}{}%
+\contentsline {subsection}{Romain}{27}{}%
+\contentsline {subsection}{Cyprien}{27}{}%
+\contentsline {section}{Liste des figures}{29}{}%
+\contentsline {section}{Bibliographie}{30}{}%
+\contentsline {section}{\numberline {A}Grille Tarifaire Activ'ESAIP}{31}{}%
+\contentsline {section}{\numberline {B}Compte rendu de réunion type}{32}{}%
+\contentsline {section}{\numberline {C}Résumé en trois langues}{35}{}%
