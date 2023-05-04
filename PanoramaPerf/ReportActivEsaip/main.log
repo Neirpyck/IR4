@@ -1,0 +1,1948 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.20)  6 JUN 2021 12:04
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/main.tex
+(/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/03/24 3.56 The Babel package
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/03/24 3.56 Babel common definitions
+\babel@savecnt=\count187
+\U@D=\dimen139
+\l@babelnohyphens=\language87
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count188
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 108.
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count189
+\l__pdf_internal_box=\box47
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
+Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box48
+\UL@hyphenbox=\box49
+\UL@skip=\skip49
+\UL@hook=\toks17
+\UL@height=\dimen140
+\UL@pe=\count190
+\UL@pixel=\dimen141
+\ULC@box=\box50
+Package: ulem 2019/11/18
+\ULdepth=\dimen142
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/layout.sty
+Package: layout 2014/10/28 v1.2c Show layout parameters
+\oneinch=\count191
+\cnt@paperwidth=\count192
+\cnt@paperheight=\count193
+\cnt@hoffset=\count194
+\cnt@voffset=\count195
+\cnt@textheight=\count196
+\cnt@textwidth=\count197
+\cnt@topmargin=\count198
+\cnt@oddsidemargin=\count199
+\cnt@evensidemargin=\count266
+\cnt@headheight=\count267
+\cnt@headsep=\count268
+\cnt@marginparsep=\count269
+\cnt@marginparwidth=\count270
+\cnt@marginparpush=\count271
+\cnt@footskip=\count272
+\fheight=\count273
+\ref@top=\count274
+\ref@hoffset=\count275
+\ref@voffset=\count276
+\ref@head=\count277
+\ref@body=\count278
+\ref@foot=\count279
+\ref@margin=\count280
+\ref@marginwidth=\count281
+\ref@marginpar=\count282
+\Interval=\count283
+\ExtraYPos=\count284
+\PositionX=\count285
+\PositionY=\count286
+\ArrowLength=\count287
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count288
+\Gm@cntv=\count289
+\c@Gm@tempcnt=\count290
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
+\Gm@dimlist=\toks19
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks20
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip50
+\plpartopsep=\skip51
+\plitemsep=\skip52
+\plparsep=\skip53
+\pl@lab=\toks21
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen153
+\WF@size=\dimen154
+\c@WF@wrappedlines=\count291
+\WF@box=\box51
+\WF@everypar=\toks22
+Package: wrapfig 2003/01/31  v 3.6
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count292
+\mult@box=\box52
+\multicol@leftmargin=\dimen155
+\c@unbalance=\count293
+\c@collectmore=\count294
+\doublecol@number=\count295
+\multicoltolerance=\count296
+\multicolpretolerance=\count297
+\full@width=\dimen156
+\page@free=\dimen157
+\premulticols=\dimen158
+\postmulticols=\dimen159
+\multicolsep=\skip54
+\multicolbaselineskip=\skip55
+\partial@page=\box53
+\last@line=\box54
+\maxbalancingoverflow=\dimen160
+\mult@rightbox=\box55
+\mult@grightbox=\box56
+\mult@gfirstbox=\box57
+\mult@firstbox=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\c@minrows=\count298
+\c@columnbadness=\count299
+\c@finalcolumnbadness=\count300
+\last@try=\dimen161
+\multicolovershoot=\dimen162
+\multicolundershoot=\dimen163
+\mult@nat@firstbox=\box96
+\colbreak@box=\box97
+\mc@col@check@num=\count301
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip56
+\subfigcapskip=\skip57
+\subfigcaptopadj=\dimen164
+\subfigbottomskip=\skip58
+\subfigcapmargin=\dimen165
+\subfiglabelskip=\skip59
+\c@subfigure=\count302
+\c@lofdepth=\count303
+\c@subtable=\count304
+\c@lotdepth=\count305
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip60
+\subfig@bottom=\skip61
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip62
+\multirow@cntb=\count306
+\multirow@dima=\skip63
+\bigstrutjot=\dimen166
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen167
+\ar@mcellbox=\box98
+\extrarowheight=\dimen168
+\NC@list=\toks23
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box99
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip66
+\f@nch@O@elh=\skip67
+\f@nch@O@erh=\skip68
+\f@nch@O@olh=\skip69
+\f@nch@O@orh=\skip70
+\f@nch@O@elf=\skip71
+\f@nch@O@erf=\skip72
+\f@nch@O@olf=\skip73
+\f@nch@O@orf=\skip74
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip75
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen169
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen170
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count307
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count308
+\leftroot@=\count309
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count310
+\DOTSCASE@=\count311
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box100
+\strutbox@=\box101
+\big@size=\dimen171
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count312
+\c@MaxMatrixCols=\count313
+\dotsspace@=\muskip16
+\c@parentequation=\count314
+\dspbrk@lvl=\count315
+\tag@help=\toks25
+\row@=\count316
+\column@=\count317
+\maxfields@=\count318
+\andhelp@=\toks26
+\eqnshift@=\dimen172
+\alignsep@=\dimen173
+\tagshift@=\dimen174
+\tagwidth@=\dimen175
+\totwidth@=\dimen176
+\lineht@=\dimen177
+\@envbody=\toks27
+\multlinegap=\skip76
+\multlinetaggap=\skip77
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box102
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pythonhighlight/pythonhighlight.sty
+Package: pythonhighlight 2017/02/09 python code highlighting; provided by Olivier Verdier <olivier.verdier@gmail.com>
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count319
+\lst@gtempboxa=\box103
+\lst@token=\toks29
+\lst@length=\count320
+\lst@currlwidth=\dimen178
+\lst@column=\count321
+\lst@pos=\count322
+\lst@lostspace=\dimen179
+\lst@width=\dimen180
+\lst@newlines=\count323
+\lst@lineno=\count324
+\lst@maxwidth=\dimen181
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count325
+\lst@skipnumbers=\count326
+\lst@framebox=\box104
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count327
+\float@exts=\toks30
+\float@box=\box105
+\@float@everytoks=\toks31
+\@floatcapt=\box106
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count328
+\c@@ppsavesec=\count329
+\c@@ppsaveapp=\count330
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count331
+\calc@Bcount=\count332
+\calc@Adimen=\dimen182
+\calc@Bdimen=\dimen183
+\calc@Askip=\skip78
+\calc@Bskip=\skip79
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count333
+\calc@Cskip=\skip80
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen184
+\ESO@tempdimb=\dimen185
+)
+\AM@pagewidth=\dimen186
+\AM@pageheight=\dimen187
+\AM@fboxrule=\dimen188
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count334
+\AM@pagebox=\box107
+\AM@global@opts=\toks32
+\AM@pagecnt=\count335
+\AM@toc@title=\toks33
+\c@AM@survey=\count336
+\AM@templatesizebox=\box108
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2020/08/18 v1.1.3 Todonotes source and documentation.
+Package: todonotes 2018/11/22
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks34
+\XKV@tempa@toks=\toks35
+)
+\XKV@depth=\count337
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks36
+\pgfutil@tempdima=\dimen189
+\pgfutil@tempdimb=\dimen190
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box109
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks39
+))
+\pgf@x=\dimen191
+\pgf@y=\dimen192
+\pgf@xa=\dimen193
+\pgf@ya=\dimen194
+\pgf@xb=\dimen195
+\pgf@yb=\dimen196
+\pgf@xc=\dimen197
+\pgf@yc=\dimen198
+\pgf@xd=\dimen199
+\pgf@yd=\dimen256
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count338
+\c@pgf@countb=\count339
+\c@pgf@countc=\count340
+\c@pgf@countd=\count341
+\t@pgf@toka=\toks40
+\t@pgf@tokb=\toks41
+\t@pgf@tokc=\toks42
+\pgf@sys@id@count=\count342
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count343
+\pgfsyssoftpath@bigbuffer@items=\count344
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen257
+\pgfmath@count=\count345
+\pgfmath@box=\box110
+\pgfmath@toks=\toks43
+\pgfmath@stack@operand=\toks44
+\pgfmath@stack@operation=\toks45
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count346
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen258
+\pgf@picmaxx=\dimen259
+\pgf@picminy=\dimen260
+\pgf@picmaxy=\dimen261
+\pgf@pathminx=\dimen262
+\pgf@pathmaxx=\dimen263
+\pgf@pathminy=\dimen264
+\pgf@pathmaxy=\dimen265
+\pgf@xx=\dimen266
+\pgf@xy=\dimen267
+\pgf@yx=\dimen268
+\pgf@yy=\dimen269
+\pgf@zx=\dimen270
+\pgf@zy=\dimen271
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen272
+\pgf@path@lasty=\dimen273
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen274
+\pgf@shorten@start@additional=\dimen275
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box111
+\pgf@hbox=\box112
+\pgf@layerbox@main=\box113
+\pgf@picture@serial@count=\count347
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen276
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen277
+\pgf@pt@y=\dimen278
+\pgf@pt@temp=\dimen279
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen280
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen281
+\pgf@sys@shading@range@num=\count348
+\pgf@shadingcount=\count349
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box114
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box115
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen282
+\pgf@nodesepend=\dimen283
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen284
+\pgffor@skip=\dimen285
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count350
+\pgfplotmarksize=\dimen286
+)
+\tikz@lastx=\dimen287
+\tikz@lasty=\dimen288
+\tikz@lastxsaved=\dimen289
+\tikz@lastysaved=\dimen290
+\tikz@lastmovetox=\dimen291
+\tikz@lastmovetoy=\dimen292
+\tikzleveldistance=\dimen293
+\tikzsiblingdistance=\dimen294
+\tikz@figbox=\box116
+\tikz@figbox@bg=\box117
+\tikz@tempbox=\box118
+\tikz@tempbox@bg=\box119
+\tikztreelevel=\count351
+\tikznumberofchildren=\count352
+\tikznumberofcurrentchild=\count353
+\tikz@fig@count=\count354
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count355
+\pgfmatrixcurrentcolumn=\count356
+\pgf@matrix@numberofcolumns=\count357
+)
+\tikz@expandcount=\count358
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+\c@@todonotes@numberoftodonotes=\count359
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `listings' support loaded on input line 3131.
+) (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count360
+\scratchdimen=\dimen295
+\scratchbox=\box120
+\nofMPsegments=\count361
+\nofMParguments=\count362
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count363
+\MPscratchDim=\dimen296
+\MPnumerator=\count364
+\makeMPintoPDFobject=\count365
+\everyMPtoPDFconversion=\toks49
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\c@lstlisting=\count366
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 63.
+
+\openout2 = `tex/page_garde.aux'.
+
+(/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/page_garde.tex
+<img/Logo_PANORAMA_Fond-BLANC.jpg, id=29, 427.3566pt x 426.8748pt>
+File: img/Logo_PANORAMA_Fond-BLANC.jpg Graphic file (type jpg)
+<use img/Logo_PANORAMA_Fond-BLANC.jpg>
+Package pdftex.def Info: img/Logo_PANORAMA_Fond-BLANC.jpg  used on input line 6.
+(pdftex.def)             Requested size: 106.83888pt x 106.71843pt.
+
+Overfull \hbox (35.707pt too wide) in paragraph at lines 6--7
+ [] 
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<img/logo_ESAIP_INGENIEUR_RVB_2016-250.jpg, id=30, 30.1125pt x 14.9358pt>
+File: img/logo_ESAIP_INGENIEUR_RVB_2016-250.jpg Graphic file (type jpg)
+<use img/logo_ESAIP_INGENIEUR_RVB_2016-250.jpg>
+Package pdftex.def Info: img/logo_ESAIP_INGENIEUR_RVB_2016-250.jpg  used on input line 20.
+(pdftex.def)             Requested size: 75.28102pt x 37.33936pt.
+
+Overfull \hbox (4.14914pt too wide) in paragraph at lines 20--21
+ [] 
+ []
+
+[1
+
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/Logo_PANORAMA_Fond-BLANC.jpg> </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/logo_ESAIP_INGENIEUR_RVB_2016-250.jpg>])
+No file main.toc.
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/main.tex:69: Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.69 \include{tex/abreviations}
+                               
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[1
+
+
+]
+\openout2 = `tex/abreviations.aux'.
+
+ (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/abreviations.tex
+
+LaTeX Warning: Citation `POC' on page \c@page  undefined on input line 4.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
+
+LaTeX Warning: Citation `DRSO' on page \c@page  undefined on input line 7.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+LaTeX Warning: Citation `JEH' on page \c@page  undefined on input line 10.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+
+LaTeX Warning: Citation `TPEPME' on page \c@page  undefined on input line 13.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+LaTeX Warning: Citation `TPEPME' on page \c@page  undefined on input line 16.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+LaTeX Warning: Citation `TVA' on page \c@page  undefined on input line 25.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
+
+LaTeX Warning: Citation `TTC' on page \c@page  undefined on input line 28.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+
+LaTeX Warning: Citation `frwiki:183031578' on page \c@page  undefined on input line 34.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+
+LaTeX Warning: Citation `MVP' on page \c@page  undefined on input line 40.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
+LaTeX Warning: Citation `BLoC' on page \c@page  undefined on input line 43.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/main.tex:69: Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.69 \include{tex/abreviations}
+                               
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[2
+
+]
+\openout2 = `tex/contexte.aux'.
+
+ (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/contexte.tex
+<img/activesaip.jpeg, id=47, 1043.9pt x 218.8175pt>
+File: img/activesaip.jpeg Graphic file (type jpg)
+<use img/activesaip.jpeg>
+Package pdftex.def Info: img/activesaip.jpeg  used on input line 12.
+(pdftex.def)             Requested size: 313.17241pt x 65.64575pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+<img/team.jpg, id=48, 2055.68pt x 1541.76pt>
+File: img/team.jpg Graphic file (type jpg)
+<use img/team.jpg>
+Package pdftex.def Info: img/team.jpg  used on input line 24.
+(pdftex.def)             Requested size: 308.3387pt x 231.25401pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1
+
+
+
+ </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/activesaip.jpeg> </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/team.jpg>]
+<img/sequenceur_2.jpeg, id=53, 958.58125pt x 836.12375pt>
+File: img/sequenceur_2.jpeg Graphic file (type jpg)
+<use img/sequenceur_2.jpeg>
+Package pdftex.def Info: img/sequenceur_2.jpeg  used on input line 38.
+(pdftex.def)             Requested size: 383.4257pt x 334.44357pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+LaTeX Warning: Reference `fig:ProductionItem' on page 2 undefined on input line 47.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+
+LaTeX Warning: Reference `fig:productionLigne' on page 2 undefined on input line 49.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2
+
+ </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/sequenceur_2.jpeg>]
+<img/productionItem.jpg, id=60, 1531.7225pt x 856.19875pt>
+File: img/productionItem.jpg Graphic file (type jpg)
+<use img/productionItem.jpg>
+Package pdftex.def Info: img/productionItem.jpg  used on input line 53.
+(pdftex.def)             Requested size: 459.5203pt x 256.8616pt.
+
+Overfull \hbox (4.27618pt too wide) in paragraph at lines 53--54
+ [][] 
+ []
+
+<img/ligne_production.jpg, id=61, 2378.8875pt x 697.60625pt>
+File: img/ligne_production.jpg Graphic file (type jpg)
+<use img/ligne_production.jpg>
+Package pdftex.def Info: img/ligne_production.jpg  used on input line 59.
+(pdftex.def)             Requested size: 451.99333pt x 132.54655pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+<img/productionStep.jpg, id=62, 1780.6525pt x 1509.64pt>
+File: img/productionStep.jpg Graphic file (type jpg)
+<use img/productionStep.jpg>
+Package pdftex.def Info: img/productionStep.jpg  used on input line 70.
+(pdftex.def)             Requested size: 356.12419pt x 301.92265pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:productionLigne' on page 3 undefined on input line 75.
+
+
+LaTeX Warning: Reference `fig:employee' on page 3 undefined on input line 75.
+
+<img/employee.jpg, id=63, 2230.3325pt x 1510.64375pt>
+File: img/employee.jpg Graphic file (type jpg)
+<use img/employee.jpg>
+Package pdftex.def Info: img/employee.jpg  used on input line 79.
+(pdftex.def)             Requested size: 334.53545pt x 226.58678pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `MaBoutiqueEnLean' on page 3 undefined on input line 85.
+
+
+Overfull \hbox (5.15822pt too wide) in paragraph at lines 84--86
+\OT1/cmr/m/n/10.95 Cet outil a per-mis ^^Ra Panorama de se d^^Semarquer de ses con-cur-rents (comme "maboutiqueenlean"[[]]
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3 </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/productionItem.jpg> </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/ligne_production.jpg>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4 </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/productionStep.jpg> </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/employee.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5
+
+]
+\openout2 = `tex/mission_methodologie.aux'.
+
+
+No file tex/mission_methodologie.tex.
+\openout2 = `tex/mission_technologies.aux'.
+
+(/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/mission_technologies.tex
+
+LaTeX Warning: Citation `Flutter' on page 6 undefined on input line 8.
+
+<img/Flutter.jpg, id=75, 628.59843pt x 301.125pt>
+File: img/Flutter.jpg Graphic file (type jpg)
+<use img/Flutter.jpg>
+Package pdftex.def Info: img/Flutter.jpg  used on input line 12.
+(pdftex.def)             Requested size: 314.29845pt x 150.56212pt.
+
+LaTeX Warning: Citation `Flutter2.2' on page 6 undefined on input line 17.
+
+
+LaTeX Warning: Citation `UbuntuFlutter' on page 6 undefined on input line 17.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+<img/Apps_flutter.png, id=76, 1365.1pt x 708.6475pt>
+File: img/Apps_flutter.png Graphic file (type png)
+<use img/Apps_flutter.png>
+Package pdftex.def Info: img/Apps_flutter.png  used on input line 21.
+(pdftex.def)             Requested size: 450.48439pt x 233.8544pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6
+
+
+
+
+
+
+ </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/Flutter.jpg> </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/Apps_flutter.png>]
+
+LaTeX Warning: Citation `NoSQL' on page 7 undefined on input line 35.
+
+
+LaTeX Warning: Citation `Firebase' on page 7 undefined on input line 35.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+<img/firebase.png, id=83, 1606.0pt x 823.075pt>
+File: img/firebase.png Graphic file (type png)
+<use img/firebase.png>
+Package pdftex.def Info: img/firebase.png  used on input line 39.
+(pdftex.def)             Requested size: 240.8896pt x 123.45592pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+<img/screen_firebase.png, id=84, 2278.5125pt x 1158.3275pt>
+File: img/screen_firebase.png Graphic file (type png)
+<use img/screen_firebase.png>
+Package pdftex.def Info: img/screen_firebase.png  used on input line 48.
+(pdftex.def)             Requested size: 455.69443pt x 231.66139pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/screen_firebase2.png, id=85, 954.56625pt x 587.19376pt>
+File: img/screen_firebase2.png Graphic file (type png)
+<use img/screen_firebase2.png>
+Package pdftex.def Info: img/screen_firebase2.png  used on input line 55.
+(pdftex.def)             Requested size: 477.28197pt x 293.59616pt.
+
+Overfull \hbox (22.03786pt too wide) in paragraph at lines 55--56
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:CaptureFirebase' on page 7 undefined on input line 60.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7 </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/firebase.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8 </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/screen_firebase.png> </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/screen_firebase2.png>]
+<img/class_diag.jpeg, id=96, 702.625pt x 452.69125pt>
+File: img/class_diag.jpeg Graphic file (type jpg)
+<use img/class_diag.jpeg>
+Package pdftex.def Info: img/class_diag.jpeg  used on input line 67.
+(pdftex.def)             Requested size: 421.57825pt x 271.61684pt.
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9
+
+ </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/class_diag.jpeg>]
+\openout2 = `tex/mission_project_management.aux'.
+
+ (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/mission_project_management.tex
+
+LaTeX Warning: Citation `Atlassian' on page 10 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Sprint' on page 10 undefined on input line 6.
+
+<img/agile.jpg, id=100, 1739.49875pt x 1175.39125pt>
+File: img/agile.jpg Graphic file (type jpg)
+<use img/agile.jpg>
+Package pdftex.def Info: img/agile.jpg  used on input line 9.
+(pdftex.def)             Requested size: 434.87363pt x 293.84709pt.
+
+Overfull \hbox (10.40515pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10.95 charge apr^^Res chaque sprint pour ap-porter des mod-i-fi-ca-tions ^^Ra la so-lu-tion en cours de d^^Seveloppement. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+LaTeX Warning: Citation `ProductOwner' on page 10 undefined on input line 22.
+
+
+LaTeX Warning: Citation `ScrumMaster' on page 10 undefined on input line 30.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10
+
+
+
+ </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/agile.jpg>]
+<img/backlog.png, id=105, 2368.85pt x 1455.4375pt>
+File: img/backlog.png Graphic file (type png)
+<use img/backlog.png>
+Package pdftex.def Info: img/backlog.png  used on input line 34.
+(pdftex.def)             Requested size: 426.3746pt x 261.96744pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--52
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11 </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/backlog.png>]
+
+LaTeX Warning: Citation `GitHub' on page 12 undefined on input line 65.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+<img/azure.png, id=110, 1032.85875pt x 470.75874pt>
+File: img/azure.png Graphic file (type png)
+<use img/azure.png>
+Package pdftex.def Info: img/azure.png  used on input line 69.
+(pdftex.def)             Requested size: 413.13618pt x 188.30016pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+
+ []
+
+<img/slack.png, id=111, 2409.0pt x 1260.71pt>
+File: img/slack.png Graphic file (type png)
+<use img/slack.png>
+Package pdftex.def Info: img/slack.png  used on input line 81.
+(pdftex.def)             Requested size: 361.33441pt x 189.09834pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12
+
+ </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/azure.png>]
+<img/screen_slack.jpeg, id=116, 1445.4pt x 903.375pt>
+File: img/screen_slack.jpeg Graphic file (type jpg)
+<use img/screen_slack.jpeg>
+Package pdftex.def Info: img/screen_slack.jpeg  used on input line 92.
+(pdftex.def)             Requested size: 433.62335pt x 271.01459pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13 </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/slack.png (PNG copy)> </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/screen_slack.jpeg>]
+<img/teams.jpg, id=120, 1927.2pt x 1084.05pt>
+File: img/teams.jpg Graphic file (type jpg)
+<use img/teams.jpg>
+Package pdftex.def Info: img/teams.jpg  used on input line 104.
+(pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
+
+
+LaTeX Warning: Citation `PairProgrammingCodementor' on page 14 undefined on input line 112.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+
+LaTeX Warning: Reference `fig:PairProgramming' on page 14 undefined on input line 114.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+<img/pairprog.jpg, id=121, 924.5742pt x 447.1104pt>
+File: img/pairprog.jpg Graphic file (type jpg)
+<use img/pairprog.jpg>
+Package pdftex.def Info: img/pairprog.jpg  used on input line 119.
+(pdftex.def)             Requested size: 462.28596pt x 223.55464pt.
+
+Overfull \hbox (7.04185pt too wide) in paragraph at lines 119--120
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+LaTeX Warning: Citation `Williams00strengtheningthe' on page 14 undefined on input line 126.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14 </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/teams.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+LaTeX Warning: Reference `fig:burndownChart' on page 15 undefined on input line 133.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+<img/burndown.jpeg, id=125, 675.52374pt x 505.89pt>
+File: img/burndown.jpeg Graphic file (type jpg)
+<use img/burndown.jpeg>
+Package pdftex.def Info: img/burndown.jpeg  used on input line 137.
+(pdftex.def)             Requested size: 337.76105pt x 252.94437pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15 </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/pairprog.jpg>]
+
+LaTeX Warning: Citation `enwiki:1023152145' on page 16 undefined on input line 148.
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16 </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/burndown.jpeg>]
+\openout2 = `tex/mission_flow.aux'.
+
+ (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/mission_flow.tex
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+<img/sequence.jpeg, id=133, 519.9425pt x 597.23125pt>
+File: img/sequence.jpeg Graphic file (type jpg)
+<use img/sequence.jpeg>
+Package pdftex.def Info: img/sequence.jpeg  used on input line 30.
+(pdftex.def)             Requested size: 519.94124pt x 597.22978pt.
+
+Overfull \hbox (64.69713pt too wide) in paragraph at lines 30--31
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+LaTeX Warning: Reference `fig:appV1' on page 17 undefined on input line 38.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[17
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[18 </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/sequence.jpeg>]
+<img/app_v1.jpeg, id=140, 1445.4pt x 903.375pt>
+File: img/app_v1.jpeg Graphic file (type jpg)
+<use img/app_v1.jpeg>
+Package pdftex.def Info: img/app_v1.jpeg  used on input line 46.
+(pdftex.def)             Requested size: 404.70924pt x 252.94327pt.
+
+
+LaTeX Warning: Reference `fig:appV1StartPage' on page 19 undefined on input line 51.
+
+<img/app_v1_startPage.jpeg, id=141, 1445.4pt x 903.375pt>
+File: img/app_v1_startPage.jpeg Graphic file (type jpg)
+<use img/app_v1_startPage.jpeg>
+Package pdftex.def Info: img/app_v1_startPage.jpeg  used on input line 55.
+(pdftex.def)             Requested size: 404.70924pt x 252.94327pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[19
+
+ </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/app_v1.jpeg> </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/app_v1_startPage.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+LaTeX Warning: Reference `fig:appV2' on page 20 undefined on input line 63.
+
+<img/app_v2.jpeg, id=145, 1445.4pt x 903.375pt>
+File: img/app_v2.jpeg Graphic file (type jpg)
+<use img/app_v2.jpeg>
+Package pdftex.def Info: img/app_v2.jpeg  used on input line 68.
+(pdftex.def)             Requested size: 404.70924pt x 252.94327pt.
+<img/creation_step.png, id=146, 600.2425pt x 455.7025pt>
+File: img/creation_step.png Graphic file (type png)
+<use img/creation_step.png>
+Package pdftex.def Info: img/creation_step.png  used on input line 75.
+(pdftex.def)             Requested size: 168.06674pt x 127.59583pt.
+
+LaTeX Warning: Reference `fig:creationStep' on page 20 undefined on input line 80.
+
+
+LaTeX Warning: Reference `fig:appV1StartPage' on page 20 undefined on input line 80.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[20
+
+ </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/app_v2.jpeg> </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/creation_step.png>]
+<img/app_v3.png, id=151, 1445.4pt x 903.375pt>
+File: img/app_v3.png Graphic file (type png)
+<use img/app_v3.png>
+Package pdftex.def Info: img/app_v3.png  used on input line 88.
+(pdftex.def)             Requested size: 404.70924pt x 252.94327pt.
+
+
+LaTeX Warning: Reference `fig:POC' on page 21 undefined on input line 94.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[21
+
+ </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/app_v3.png>]
+\openout2 = `tex/partie_financiere.aux'.
+
+ (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/partie_financiere.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+LaTeX Warning: Citation `SalaireFreeLance' on page 22 undefined on input line 21.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[22
+
+
+
+]
+<img/estimation_prix_poc.jpeg, id=161, 791.95876pt x 554.07pt>
+File: img/estimation_prix_poc.jpeg Graphic file (type jpg)
+<use img/estimation_prix_poc.jpeg>
+Package pdftex.def Info: img/estimation_prix_poc.jpeg  used on input line 28.
+(pdftex.def)             Requested size: 395.97841pt x 277.03432pt.
+<img/estimation_prix_projetFL.jpeg, id=162, 651.43375pt x 485.815pt>
+File: img/estimation_prix_projetFL.jpeg Graphic file (type jpg)
+<use img/estimation_prix_projetFL.jpeg>
+Package pdftex.def Info: img/estimation_prix_projetFL.jpeg  used on input line 38.
+(pdftex.def)             Requested size: 325.71606pt x 242.9069pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[23
+
+ </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/estimation_prix_poc.jpeg> </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/estimation_prix_projetFL.jpeg>]
+
+LaTeX Warning: Reference `fig:TabEstimationAppDev' on page 24 undefined on input line 44.
+
+<img/estimation_prix_projetDev.jpeg, id=166, 828.09375pt x 455.7025pt>
+File: img/estimation_prix_projetDev.jpeg Graphic file (type jpg)
+<use img/estimation_prix_projetDev.jpeg>
+Package pdftex.def Info: img/estimation_prix_projetDev.jpeg  used on input line 49.
+(pdftex.def)             Requested size: 414.04587pt x 227.85068pt.
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[24
+
+ </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/estimation_prix_projetDev.jpeg>]
+\openout2 = `tex/mission_resultats.aux'.
+
+ (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/mission_resultats.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+<img/MVP.png, id=170, 1003.75pt x 565.11125pt>
+File: img/MVP.png Graphic file (type png)
+<use img/MVP.png>
+Package pdftex.def Info: img/MVP.png  used on input line 12.
+(pdftex.def)             Requested size: 301.12732pt x 169.53468pt.
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25
+
+
+
+ </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/img/MVP.png>]
+\openout2 = `tex/conclusion.aux'.
+
+ (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[26
+
+
+
+]
+\openout2 = `tex/bilan_perso.aux'.
+
+ (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/bilan_perso.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[27
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[28]
+No file main.lof.
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[29
+
+
+
+]
+No file main.bbl.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[30
+
+]
+\openout2 = `tex/annexe.aux'.
+
+ (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/annexe.tex
+
+pdfTeX warning: pdflatex (file /Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/pdf/Grille tarifaire ACTIVESAIP V2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdf/Grille tarifaire ACTIVESAIP V2.pdf, id=191, 597.55246pt x 845.07724pt>
+File: pdf/Grille tarifaire ACTIVESAIP V2.pdf Graphic file (type pdf)
+<use pdf/Grille tarifaire ACTIVESAIP V2.pdf>
+Package pdftex.def Info: pdf/Grille tarifaire ACTIVESAIP V2.pdf  used on input line 3.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex (file /Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/pdf/Grille tarifaire ACTIVESAIP V2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: pdf/Grille tarifaire ACTIVESAIP V2.pdf Graphic file (type pdf)
+<use pdf/Grille tarifaire ACTIVESAIP V2.pdf>
+Package pdftex.def Info: pdf/Grille tarifaire ACTIVESAIP V2.pdf  used on input line 3.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex (file /Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/pdf/Grille tarifaire ACTIVESAIP V2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file /Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/pdf/Grille tarifaire ACTIVESAIP V2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdf/Grille tarifaire ACTIVESAIP V2.pdf, id=194, page=1, 597.55246pt x 845.07724pt>
+File: pdf/Grille tarifaire ACTIVESAIP V2.pdf Graphic file (type pdf)
+<use pdf/Grille tarifaire ACTIVESAIP V2.pdf, page 1>
+Package pdftex.def Info: pdf/Grille tarifaire ACTIVESAIP V2.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+File: pdf/Grille tarifaire ACTIVESAIP V2.pdf Graphic file (type pdf)
+<use pdf/Grille tarifaire ACTIVESAIP V2.pdf, page 1>
+Package pdftex.def Info: pdf/Grille tarifaire ACTIVESAIP V2.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
+File: pdf/Grille tarifaire ACTIVESAIP V2.pdf Graphic file (type pdf)
+<use pdf/Grille tarifaire ACTIVESAIP V2.pdf, page 1>
+Package pdftex.def Info: pdf/Grille tarifaire ACTIVESAIP V2.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
+File: pdf/Grille tarifaire ACTIVESAIP V2.pdf Graphic file (type pdf)
+<use pdf/Grille tarifaire ACTIVESAIP V2.pdf, page 1>
+Package pdftex.def Info: pdf/Grille tarifaire ACTIVESAIP V2.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+File: pdf/Grille tarifaire ACTIVESAIP V2.pdf Graphic file (type pdf)
+<use pdf/Grille tarifaire ACTIVESAIP V2.pdf, page 1>
+Package pdftex.def Info: pdf/Grille tarifaire ACTIVESAIP V2.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 507.92198pt x 718.31905pt.
+[31
+
+ </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/pdf/Grille tarifaire ACTIVESAIP V2.pdf>]
+<pdf/compte_rendu_010421.pdf, id=234, 597.5078pt x 845.04686pt>
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf  used on input line 5.
+(pdftex.def)             Requested size: 597.50633pt x 845.0448pt.
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf  used on input line 5.
+(pdftex.def)             Requested size: 597.50633pt x 845.0448pt.
+<pdf/compte_rendu_010421.pdf, id=237, page=1, 597.5078pt x 845.04686pt>
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf, page 1>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 597.50633pt x 845.0448pt.
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf, page 1>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 507.88402pt x 718.29323pt.
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf, page 1>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 507.88402pt x 718.29323pt.
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf, page 1>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 507.88402pt x 718.29323pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf, page 1>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 507.88402pt x 718.29323pt.
+[32 </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/pdf/compte_rendu_010421.pdf>]
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf  used on input line 6.
+(pdftex.def)             Requested size: 597.50633pt x 845.0448pt.
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf  used on input line 6.
+(pdftex.def)             Requested size: 597.50633pt x 845.0448pt.
+<pdf/compte_rendu_010421.pdf, id=263, page=2, 597.5078pt x 845.04686pt>
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf, page 2>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf , page2 used on input line 6.
+(pdftex.def)             Requested size: 597.50633pt x 845.0448pt.
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf, page 2>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf , page2 used on input line 6.
+(pdftex.def)             Requested size: 507.88402pt x 718.29323pt.
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf, page 2>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf , page2 used on input line 6.
+(pdftex.def)             Requested size: 507.88402pt x 718.29323pt.
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf, page 2>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf , page2 used on input line 6.
+(pdftex.def)             Requested size: 507.88402pt x 718.29323pt.
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf, page 2>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf , page2 used on input line 6.
+(pdftex.def)             Requested size: 507.88402pt x 718.29323pt.
+ [33 </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/pdf/compte_rendu_010421.pdf>]
+<pdf/compte_rendu_010421.pdf, id=267, page=3, 597.5078pt x 845.04686pt>
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf, page 3>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf , page3 used on input line 6.
+(pdftex.def)             Requested size: 507.88402pt x 718.29323pt.
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf, page 3>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf , page3 used on input line 6.
+(pdftex.def)             Requested size: 507.88402pt x 718.29323pt.
+File: pdf/compte_rendu_010421.pdf Graphic file (type pdf)
+<use pdf/compte_rendu_010421.pdf, page 3>
+Package pdftex.def Info: pdf/compte_rendu_010421.pdf , page3 used on input line 6.
+(pdftex.def)             Requested size: 507.88402pt x 718.29323pt.
+ [34 </Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/pdf/compte_rendu_010421.pdf>])
+\openout2 = `tex/lang_abstract.aux'.
+
+ (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/lang_abstract.tex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[35
+
+
+
+] (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/main.aux (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/page_garde.aux) (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/abreviations.aux) (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/contexte.aux) (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/mission_methodologie.aux) (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/mission_technologies.aux) (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/mission_project_management.aux) (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/mission_flow.aux) (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/partie_financiere.aux) (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/mission_resultats.aux) (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/conclusion.aux) (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/bilan_perso.aux) (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/annexe.aux) (/Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/tex/lang_abstract.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 20338 strings out of 478994
+ 392532 string characters out of 5858184
+ 796501 words of memory out of 5000000
+ 37313 multiletter control sequences out of 15000+600000
+ 414983 words of font info for 71 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 102i,18n,102p,1251b,933s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on /Users/cypie/Documents/PanoramaPerf/ReportActivEsaip/main.pdf (38 pages, 7408329 bytes).
+PDF statistics:
+ 324 PDF objects out of 1000 (max. 8388607)
+ 179 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 334 words of extra memory for PDF output out of 10000 (max. 10000000)
+
